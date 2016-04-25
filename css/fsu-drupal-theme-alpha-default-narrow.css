@@ -1,0 +1,48 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the normal and widescreen layouts. You may override these styles in the normal 
+ *  and widescreen CSS files as appropriate. */
+
+/* User Zone */
+
+div#zone-user-wrapper {
+  background-image: url("../images/fsu-seal-top.png");
+  background-repeat: no-repeat;
+  background-position: 50% bottom;
+}
+
+div.region-user-first {
+  display: inline;
+}
+
+/* Branding Zone */
+
+div#zone-branding-wrapper {
+  background-image: url("../images/fsu-seal-bottom.png");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+}
+
+h1.site-name, h2.site-name {
+  margin-top: 50px;
+}
+
+/* Menu Zone */
+
+div#zone-menu-wrapper {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+div#zone-menu-wrapper a, a:visited {
+  color: #782f40;
+  padding: 10px 10px;
+}
+
+div#zone-menu-wrapper a:hover {
+  color: #bda777;
+  background-color: #eee;
+}
