@@ -40,13 +40,13 @@ global.css
   * This layout does not use the 960gs for its layout. It provides a linearized 
     view of your site's content. 
 
-fsu-drupal-theme-alpha-default.css
+fsutheme-alpha-default.css
   * Loaded for all layouts using the alpha grid (i.e. not the mobile layout).
   * Default media query: n/a. Applied to all layouts using the alpha grid.
   * By default the alpha grid is applied when the device width is at least 
     740px wide.
 
-fsu-drupal-theme-alpha-default-narrow.css  
+fsutheme-alpha-default-narrow.css  
   * Loaded for all layouts using the alpha grid. Styles will "cascade" to 
     wider layouts. You may overwrite any styles in the normal or wide 
     layout-specific CSS files if you wish.
@@ -55,7 +55,7 @@ fsu-drupal-theme-alpha-default-narrow.css
       (max-device-width: 800px) and (min-width: 740px) 
       and (orientation:landscape)
 
-fsu-drupal-theme-alpha-default-normal.css
+fsutheme-alpha-default-normal.css
   * By default this style sheet will be loaded for the normal and wide layouts 
   * Styles will "cascade" to the wide layout as well. 
   * Default media query for the normal layout is: 
@@ -63,7 +63,7 @@ fsu-drupal-theme-alpha-default-normal.css
       all and (max-device-width: 1024px) and (min-width: 1024px) 
       and (orientation:landscape)
 
-fsu-drupal-theme-alpha-default-wide.css
+fsutheme-alpha-default-wide.css
   * By default this style sheet will apply only to the widescreen layout.
   * Default media query for the wide layout is: 
       all and (min-width: 1220px)
