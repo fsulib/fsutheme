@@ -15,8 +15,8 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: "Adobe Garamond Pro",adobe-garamond-pro,"Times New Roman",times,serif;
-  color: #2c2a29;
+  font-family: "Benton Sans",Arial,sans-serif;
+  color: #782f40;
   text-shadow: 0 1px 1px rgba(44,42,41,.25);
   font-weight: normal;
 }
@@ -28,6 +28,16 @@ h2.block-title {
 
 a, a:link, a:visited {
   text-decoration: none;
+  color: #782f40;
+}
+
+a:hover {
+  color: #2f1c1f;
+}
+
+ul.menu li.leaf {
+  list-style: none;
+  list-style-image: none;
 }
 
 /* User Zone */
@@ -43,20 +53,23 @@ div#zone-user-wrapper {
   background-image: none;
 }
 
+div#zone-user, div#zone-user a, 
+div#zone-user a:link, div#zone-user a:visited {
+  color: white;
+  font-weight: lighter;
+  opacity: 0.9;
+}
+
+div#zone-user a:hover {
+  color: #ceb888;
+}
+
 div.region-user-first {
   display: none;
 }
 
 div.region-user-first p {
   margin: .6em 0;
-}
-
-div.region-user-first a {
-  color: white;
-}
-
-div.region-user-first a:hover {
-  color: #ceb888;
 }
 
 div#block-search-form { 
@@ -102,20 +115,40 @@ div#zone-menu-wrapper {
   text-transform: uppercase;
 }
 
-div#zone-menu-wrapper a, a:visited {
-  color: white;
+div#zone-menu a, div#zone-menu a:visited {
   padding: 10px 10px;
 }
 
-div#zone-menu-wrapper a:hover {
+div#zone-menu a:hover {
   color: #5f2835;
   background-color: #eee;
+}
+
+div#zone-menu ul > li > ul.rm-removed {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* Header Zone */
+
+div#zone-header-wrapper {
+  background-color: #e4e4e4;
 }
 
 /* Content Zone */
 
 div#zone-content-wrapper {
   margin-top: 1em;
+}
+
+/* Postscript Zone */
+
+div#zone-postscript-wrapper {
+  background-color: #f3ede1;
+}
+
+div#zone-postscript {
+  padding: 1.5em 0 0 0;
 }
 
 /* Footer Zone */
@@ -128,11 +161,13 @@ div#zone-footer-wrapper {
   min-height: 2.8em;
   background-color: #782f40;
   color: white;
-  text-align: center;
+  text-align: left;
+  font-weight: lighter;
 }
 
 div#zone-footer-wrapper p {
   margin: 10px 5px;
+  opacity: 0.9;
 }
 
 div#zone-footer-wrapper a, div#zone-footer-wrapper a:visited {

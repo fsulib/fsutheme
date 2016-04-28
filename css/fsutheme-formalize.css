@@ -27,13 +27,13 @@ input[type="button"] {
   -webkit-background-clip: padding;
   background-clip: padding-box;
   /* border-radius: 11px; */
-  background: #ddd url(../images/button.png) repeat-x;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #ddd));
-  background: -moz-linear-gradient(top center, #fff 0%, #ddd 100%);
+  background: #dacaa6 url(../images/button.png) repeat-x;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f3ede1), color-stop(1, #dacaa6));
+  background: -moz-linear-gradient(top center, #f3ede1 0%, #dacaa6 100%);
   border: 1px solid;
   border-color: #ddd #bbb #999;
   cursor: pointer;
-  color: #333;
+  color: #5f2835;
   font: bold 12px/1.2 Arial, sans-serif;
   outline: 0;
   overflow: visible;

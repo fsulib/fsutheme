@@ -11,8 +11,33 @@ div#zone-user-wrapper {
   background-position: 50% bottom;
 }
 
+div#zone-user p {
+  margin-bottom: 2px;
+}
+
 div.region-user-first {
   display: inline;
+}
+
+div.region-user-second .block {
+  float: right;
+  margin-top: 2px;
+  width: 100%;
+}
+
+div.region-user-second .block-summon-solr-search-block {
+  padding-right: 0;
+  width: auto;
+  margin-bottom: 4px;
+}
+
+div.region-user-second input#edit-onesearch-block-input {
+  width: 200px;
+}
+
+div.region-user-second input#edit-onesearch-block-submit {
+  float: none;
+  margin-top: 0;
 }
 
 /* Branding Zone */
@@ -37,12 +62,66 @@ div#zone-menu-wrapper {
   text-transform: uppercase;
 }
 
-div#zone-menu-wrapper a, a:visited {
-  color: #782f40;
-  padding: 10px 10px;
+div#zone-menu {
+  z-index: 9999;
 }
 
-div#zone-menu-wrapper a:hover {
+div#zone-menu a, a:visited {
+  color: #782f40;
+  padding: 16px 12px 14px 12px;
+}
+
+div#zone-menu a.active {
+  background-color: #eee;
+}
+
+div#zone-menu a:hover {
   color: #bda777;
   background-color: #eee;
+}
+
+div#zone-menu ul li.expanded, div#zone-menu ul li.collapsed {
+  list-style-image: none;
+  list-style-type: none;
+}
+
+div#zone-menu .block-main-menu {
+  display: table;
+  margin: 0 auto;
+}
+
+div#zone-menu .block-main-menu ul > li > ul {
+  visibility: hidden;
+  position: absolute;
+  top: 32px;
+  background-color: white;
+  overflow: auto;
+  width: auto;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  z-index: 9998;
+}
+
+div#zone-menu .block-main-menu ul > li:hover > ul {
+  visibility: visible;
+}
+
+div#zone-menu ul:first-child > li {
+  float: left;
+}
+
+div#zone-menu ul > li > ul > li {
+  margin: 0;
+  padding: 0;
+}
+
+div#zone-menu ul > li > ul > li a {
+  display: block;
+}
+
+/* Postscript Zone */
+
+div#zone-postscript .block {
+  padding: 0 20px 0 5px;
 }
