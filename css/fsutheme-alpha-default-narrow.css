@@ -19,6 +19,15 @@ div.region-user-first {
   display: inline;
 }
 
+div.region-user-first p {
+  text-align: left;
+  margin-top: 18px;
+}
+
+div.region-user-second p {
+  text-align: right;
+}
+
 div.region-user-second .block {
   float: right;
   margin-top: 2px;
@@ -29,6 +38,7 @@ div.region-user-second .block-summon-solr-search-block {
   padding-right: 0;
   width: auto;
   margin-bottom: 4px;
+  margin-top: 6px;
 }
 
 div.region-user-second input#edit-onesearch-block-input {
@@ -49,7 +59,17 @@ div#zone-branding-wrapper {
 }
 
 h1.site-name, h2.site-name {
-  margin-top: 50px;
+  margin: 50px 0 0 0;
+}
+
+h6.site-slogan {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px; 
+  font-family: "Adobe Garamond Pro",adobe-garamond-pro,"Times New Roman",times,serif;
+  letter-spacing: 0.5px;
+  font-size: 130%;
+  color: #47222a;
 }
 
 /* Menu Zone */
@@ -124,4 +144,22 @@ div#zone-menu ul > li > ul > li a {
 
 div#zone-postscript .block {
   padding: 0 20px 0 5px;
+}
+
+/* Footer Zone */
+
+div#zone-footer-wrapper {
+  text-align: left;
+}
+
+div#zone-footer p {
+  margin: 5px 5px;
+}
+
+div#zone-footer	ul.menu	{
+  text-align: left;
+}
+
+div#zone-footer p#giving {
+  margin-left: -20px;
 }
