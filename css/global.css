@@ -150,6 +150,30 @@ div#zone-header-wrapper {
   background-color: #e4e4e4;
 }
 
+/* Preface Zone */
+
+div#region-preface-second .views-row {
+  text-align: left;
+  padding: 0 0 30px 10px;
+  border-bottom: 1px solid #efefef;
+}
+
+div#region-preface-second .views-field-field-news-image {
+  display: none;
+}
+
+div#zone-preface h2.block-title	{
+  text-transform: uppercase;
+  color: #2f1c1f;
+  font-size: 130%;
+  letter-spacing: 0.5px;
+}
+
+div#region-preface-second .views-field-title {
+  font-size: 120%;
+  padding: 10px 30px 0 0;
+}
+
 /* Content Zone */
 
 div#zone-content-wrapper {
@@ -164,6 +188,10 @@ div#zone-postscript-wrapper {
 
 div#zone-postscript {
   padding: 1.5em 0 0 0;
+}
+
+div#zone-postscript ul.menu li {
+  padding: 10px 0;
 }
 
 /* Footer Zone */

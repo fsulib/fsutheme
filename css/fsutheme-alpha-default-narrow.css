@@ -140,6 +140,19 @@ div#zone-menu ul > li > ul > li a {
   display: block;
 }
 
+/* Preface Zone */
+
+div#region-preface-second .views-field-field-news-image	{
+  display: block;
+}
+
+div#region-preface-second .views-row {
+  float: left;
+  width: 50%;
+  padding: 0 0 30px 0;
+  border-bottom: none;
+}
+
 /* Postscript Zone */
 
 div#zone-postscript .block {
