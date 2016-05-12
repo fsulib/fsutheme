@@ -152,6 +152,12 @@ div#zone-header-wrapper {
 
 /* Preface Zone */
 
+div#region-preface-first .views-row {
+  padding: 0 10px 15px 10px;
+  float: left;
+  width: 160px;
+}
+
 div#region-preface-second .views-row {
   text-align: left;
   padding: 0 0 30px 10px;
@@ -167,6 +173,7 @@ div#zone-preface h2.block-title	{
   color: #2f1c1f;
   font-size: 130%;
   letter-spacing: 0.5px;
+  margin-top: 20px;
 }
 
 div#region-preface-second .views-field-title {

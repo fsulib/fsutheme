@@ -22,11 +22,9 @@ input[type="submit"],
 input[type="button"] {
   -webkit-appearance: none;
   -moz-border-radius: 11px;
-  /* -webkit-border-radius: 11px; */
-  -moz-background-clip: padding;
+  -moz-background-clip: padding-box;
   -webkit-background-clip: padding;
   background-clip: padding-box;
-  /* border-radius: 11px; */
   background: #dacaa6 url(../images/button.png) repeat-x;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f3ede1), color-stop(1, #dacaa6));
   background: -moz-linear-gradient(top center, #f3ede1 0%, #dacaa6 100%);
@@ -40,9 +38,7 @@ input[type="button"] {
   padding: 3px 10px 4px;
   text-shadow: #fff 0 1px 1px;
   width: auto;
-  *
   padding-top: 2px; /* IE7 */
-  *
   padding-bottom: 0px; /* IE7 */
 }
 
