@@ -140,45 +140,33 @@ div#zone-menu ul > li > ul > li a {
   display: block;
 }
 
+/* Header Zone */
+
+div#zone-header-wrapper {
+  padding-top: 0;
+}
+
+div#region-header-first {
+  display: block;
+  margin-top: 30px;
+}
+
+div#region-header-first .region-inner {
+  padding-right: 30px;
+}
+
+div#region-header-second li {
+  width: 22%;
+}
+
 /* Preface Zone */
+
+div#region-preface-first .spotlight {
+  padding-right: 30px;
+}
 
 div#region-preface-first .views-row {
   width: 45%;
-}
-
-div#region-preface-first .views-field-field-event-start-date {
-  font-size: 150%;
-  border: 1px solid #ddd;
-  width: 50px;
-  text-align: center;
-  background-color: #f3ede1;
-  float: left;
-}
-
-div#region-preface-first .views-field-title {
-  font-size: 120%;
-  padding-left: 60px;
-}
-
-div#region-preface-first .views-field-field-event-start-date-1 {
-  color: #888;
-  padding-left: 60px;
-}
-
-div#region-preface-first .views-field-field-event-location {
-  color: #333;
-  padding-left: 60px;
-}
-
-div#region-preface-second .views-field-field-news-image	{
-  display: block;
-}
-
-div#region-preface-second .views-row {
-  float: left;
-  width: 50%;
-  padding: 0 0 30px 0;
-  border-bottom: none;
 }
 
 /* Postscript Zone */

@@ -1,1 +1,33 @@
 /* This file will hold styles that are loaded using the same media query as the wide grid. */
+
+/* Header Zone */
+
+div#region-header-first {
+  
+}
+
+/* Preface Zone */
+
+div#region-preface-first .views-field-field-event-start-date {
+  font-size: 150%;
+  border: 1px solid #ddd;
+  width: 50px;
+  text-align: center;
+  background-color: #f3ede1;
+  float: left;
+}
+
+div#region-preface-first .views-field-title {
+  font-size: 120%;
+  padding-left: 60px;
+}
+
+div#region-preface-first .views-field-field-event-start-date-1 {
+  color: #888;
+  padding-left: 60px;
+}
+
+div#region-preface-first .views-field-field-event-location {
+  color: #333;
+  padding-left: 60px;
+}

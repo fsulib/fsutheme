@@ -6,7 +6,16 @@
 (function ($) {
   Drupal.behaviors.fsutheme = {
     attach: function(context, settings) {           
-      //Create drop down menu
+      
+      //Add accordion functionality
+      $("#accordion").accordion({
+        heightStyle: "content"
+      });
+      
+      //Add tabs functionality
+      $("#tabs").tabs({
+        heightStyle: "auto"
+      });
     }   
   };
 })(jQuery);
