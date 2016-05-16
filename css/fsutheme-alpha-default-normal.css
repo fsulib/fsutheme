@@ -2,6 +2,17 @@
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
 
+/* Header Zone */
+
+div#region-header-first {
+  display: block;
+  margin-top: 30px;
+}
+
+div#region-header-second {
+  width: 460px;
+}
+
 /* Preface Zone */
 
 div#region-preface-first img {

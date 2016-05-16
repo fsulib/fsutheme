@@ -38,8 +38,8 @@ input[type="button"] {
   padding: 3px 10px 4px;
   text-shadow: #fff 0 1px 1px;
   width: auto;
-  padding-top: 2px; /* IE7 */
-  padding-bottom: 0px; /* IE7 */
+  /* padding-top: 2px; IE7 */
+  /* padding-bottom: 0px; IE7 */
 }
 
 button {

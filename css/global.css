@@ -204,6 +204,7 @@ div#region-header-first {
 
 div#region-header-second {
   text-align: center;
+  width: 100%;
 }
 
 div#region-header-second p {
