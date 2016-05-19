@@ -2,6 +2,19 @@
 
 /* Header Zone */
 
+div#region-header-first ul.ui-tabs-nav li {
+  font-size: 100%;
+}
+
+div.home-page-search input.form-text {
+  width: 362px;
+}
+
+div.home-page-search input.edit-onesearch-block-submit {
+  width: 120px;
+    font-size: 18px;
+}
+
 div#region-header-second {
   width: 580px;
 }

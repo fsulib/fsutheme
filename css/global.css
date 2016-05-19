@@ -213,8 +213,8 @@ div#region-header-second p {
 }
 
 div#region-header-second li {
-  width: 46%;
-  min-width: 115px;
+  width: 45%;
+  min-width: 110px;
   height: 155px;
   text-align: center;
   float: left;
