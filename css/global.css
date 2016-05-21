@@ -301,6 +301,10 @@ div#zone-postscript ul.menu li {
   padding: 10px 0;
 }
 
+div.summon-search-menu ul {
+  list-style: none;
+}
+
 /* Footer Zone */
 
 div#zone-footer-wrapper {
