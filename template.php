@@ -10,3 +10,10 @@
  * for your subtheme grows. Please read the README.txt in the /preprocess and /process subfolders
  * for more information on this topic.
  */
+
+function fsutheme_preprocess(&$variables, $hook) {
+  drupal_add_css('http://cloud.webtype.com/css/83d58b53-6c1e-4957-b3f5-ca921f831767.css',
+    array('type' => 'external'));
+  drupal_add_library('system', 'ui.accordion');
+  drupal_add_library('system', 'ui.tabs');
+}
