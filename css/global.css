@@ -17,7 +17,6 @@ body {
 h1,h2,h3,h4,h5,h6 {
   font-family: "Benton Sans",Arial,sans-serif;
   color: #782f40;
-  text-shadow: 0 1px 1px rgba(44,42,41,.25);
   font-weight: normal;
 }
 
@@ -33,6 +32,7 @@ a, a:link, a:visited {
 
 a:hover {
   color: #2f1c1f;
+  text-decoration: underline;
 }
 
 ul.menu li.leaf {
@@ -208,14 +208,14 @@ div#region-header-second {
 }
 
 div#region-header-second p {
-  margin: 0;
+  margin: 0 0 5px 0;
   padding: 0;
 }
 
 div#region-header-second li {
-  width: 45%;
-  min-width: 110px;
-  height: 155px;
+  width: 20%;
+  min-width: 60px;
+  height: 100px;
   text-align: center;
   float: left;
   margin: 0 15px 10px 0;
@@ -229,9 +229,19 @@ div#region-header-second li:hover {
 
 div#region-header-second li a {
   color: #2c2a29;
+  font-size: 80%;
+}
+
+div#region-header-second div.home-page-quick-links img {
+  width: 50px;
+  height: 50px;
 }
 
 /* Preface Zone */
+
+div#zone-preface {
+  margin-top: 20px;
+}
 
 div#region-preface-first h3 {
   color: #de9717;
@@ -255,7 +265,7 @@ div#region-preface-first .content {
 div#region-preface-first .views-row {
   padding: 0 10px 15px 5px;
   float: left;
-  width: 160px;
+  width: 45%;
 }
 
 div#region-preface-second .views-row {
@@ -273,7 +283,7 @@ div#zone-preface h2.block-title	{
   color: #2f1c1f;
   font-size: 130%;
   letter-spacing: 0.5px;
-  margin-top: 20px;
+  margin-top: 0;
 }
 
 div#region-preface-second .views-field-title {
@@ -281,10 +291,75 @@ div#region-preface-second .views-field-title {
   padding: 10px 30px 0 0;
 }
 
+/* Sidebar First Region */
+
+#region-sidebar-first h2.block-title {
+  background-color: #f3ede1;
+  font-size: 120%;
+  padding: 7px 10px;
+}
+
+#region-sidebar-first section.block-menu ul.menu li {
+  margin: 0;
+}
+
+#region-sidebar-first section.block-menu ul:first-child > li {
+  border-bottom: 1px solid #cdcdcd;
+  padding: 5px 10px;
+}
+
+#region-sidebar-first section.block-menu li a {
+  color: #585858;
+  font-size: 110%; 
+}
+
+#region-sidebar-first section.block-menu ul > li > ul {
+  padding-left: 15px;
+}
+
+#region-sidebar-first section.block-menu ul > li > ul > li a {
+  color: #797979;
+}
+
+#region-sidebar-first section.block-menu ul li.expanded {
+  list-style: none;
+}
+
 /* Content Zone */
+
+div#zone-content div.region-content div.region-inner {
+  padding: 0 15px;
+}
 
 div#zone-content-wrapper {
   margin-top: 1em;
+}
+
+div#summon-solr-result h3 {
+  margin-bottom: 0;
+  text-shadow: none;
+}
+
+div#summon-solr-result h3 a {
+  color: #450c10;
+}
+
+div#summon-solr-result h5 {
+  margin-bottom: 0;
+  text-shadow: none; 
+}
+
+div#summon-solr-result h6 {
+  text-shadow: none;
+  font-weight: normal;
+}
+
+div#summon-solr-result p {
+  margin: 5px 0;
+}
+
+div#load-wait img {
+  margin-bottom: 20px;
 }
 
 /* Postscript Zone */

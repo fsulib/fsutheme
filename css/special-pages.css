@@ -1,0 +1,138 @@
+/* Login Form */
+
+#user-login .item-list { display: none; }
+
+/* Research Page */
+
+.page-research td { padding: 1rem; }
+.page-research td.col-1 { width: 50%; }
+.page-research td h2.node-title{ margin-top: 0; }
+
+/* Materials Purchase Suggestion Form */
+
+.page-node-add-materials-purchase-suggestion .preview h3 { display: none; } 
+.page-node-add-materials-purchase-suggestion .preview article.node-teaser { display: none; }
+.page-node-add-materials-purchase-suggestion .form-item-title { display: none; }
+article.node-preview div.field { margin: 15px 0 0 10px; }
+.page-node-add-materials-purchase-suggestion article.node-preview ul.action-links { display: none; }
+.page-node-add-materials-purchase-suggestion article.node-preview ul.field-collection-view-links { display: none; }
+
+/* Reserve Item Request */
+
+.page-node-add-reserve-item-request .preview h3 { display: none; }
+.page-node-add-reserve-item-request .preview article.node-teaser { display: none; }
+.page-node-add-reserve-item-request .form-item-title { display: none; }
+.page-node-add-reserve-item-request article.node-preview ul.action-links { display: none; }
+.page-node-add-reserve-item-request article.node-preview ul.field-collection-view-links { display: none; }
+
+/* Search Results Page */
+
+.search-info { display: none; }
+
+/* OneSearch Page */
+
+.onesearch-form-wrapper {
+    width: 450px;
+    padding: 8px;
+    margin: 10px auto;
+    overflow: hidden;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #dedede #bababa #aaa #bababa;
+    box-shadow: 0 3px 3px rgba(255,255,255,.1), 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 5px #444;
+    border-radius: 10px;    
+    background-color: #f6f6f6;
+    background-image: linear-gradient(top, #f6f6f6, #eae8e8);
+}
+
+.onesearch-form-wrapper #search {
+    width: 330px;
+    height: 45px;
+    padding: 10px 0px 10px 5px;
+    float: left;    
+    font: bold 16px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 1px #ddd inset, 0 1px 0 #fff;
+    border-radius: 3px;
+    margin: 5px 0px 5px 5px;
+}
+
+.onesearch-form-wrapper #submit {
+    float: right;    
+    margin: 6px 3px 0 0;
+    border: 1px solid #280007;
+    height: 42px;
+    width: 95px;
+    padding: 0;
+    cursor: pointer;
+    font: bold 15px Arial, Helvetica;
+    color: #fafafa;
+    text-transform: uppercase;    
+    background-color: #5e0117;
+    background-image: linear-gradient(top, #280007, #5e0117);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;      
+    text-shadow: 0 1px 0 rgba(0, 0 ,0, .3);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.3) inset, 0 1px 0 #fff;
+}
+
+/* Suppress Page Titles */
+
+.page-node-58 #page-title { display: none; }
+.page-node-107 #page-title { display: none; }
+.page-node-120 #page-title { display: none; }
+.page-node-103 #page-title { display: none; }
+.page-node-112 #page-title { display: none; }
+.page-node-1006 #page-title { display: none; }
+.page-node-1209 #page-title { display: none; }
+.page-node-1403 #page-title { display: none; }
+.page-node-284 #page-title { display: none; }
+.page-node-1083 #page-title { display: none; }
+.page-node-889 #page-title { display: none; }
+.page-node-1392 #page-title { display: none; }
+.page-node-1391 #page-title { display: none; }
+.page-node-1503 #page-title { display: none; }
+.page-node-1490 #page-title { display: none; }
+.page-node-1535 #page-title { display: none; }
+.page-node-2090 #page-title { display: none; }
+.page-node-2091	#page-title { display: none; }
+.page-node-2122	#page-title { display: none; }
+.page-node-2121	#page-title { display: none; }
+.page-node-2092	#page-title { display: none; }
+.page-node-1797	#page-title { display: none; }
+.page-node-2119	#page-title { display: none; }
+.page-node-2094 #page-title { display: none; }
+.page-node-2104 #page-title { display: none; }
+.page-node-2105 #page-title { display: none; }
+.page-node-2107 #page-title { display: none; }
+.page-node-2108 #page-title { display: none; }
+.page-node-2109 #page-title { display: none; }
+
+/* Suppress Contact Information */
+.page-node-120 .field-name-field-contact { display: none; }
+.page-node-112 .field-name-field-contact { display: none; }
+.page-node-103 .field-name-field-contact { display: none; }
+
+/* Events Feed */
+.page-aggregator .feed-item-date { display: none; }
+.page-aggregator .feed-updated { display: none; }
+.page-aggregator .feed-image { display: none; }
+.page-aggregator .feed-description { display: none; }
+.page-aggregator .feed-url { display: none; }
+.page-aggregator .feed-item-title { margin-top: 15px; }
+.page-aggregator .feed-item-body b:nth-child(4) { display: block; margin-top: 10px; } 
+
+/* Scholarship Submission Form */
+#edit-field-author-agreement > div > label { display: none; }
+input#edit-field-author-agreement-und::after { 
+    content: "*";
+    color: #F00;
+    font-size: 150%;
+    margin-left: 100%;
+}
+div.form-item-field-author-agreement-und > div.description {
+    margin-top: -1em;
+    font-size: 125%;
+}
+div#edit-field-author-agreement { padding: 10px 0; }

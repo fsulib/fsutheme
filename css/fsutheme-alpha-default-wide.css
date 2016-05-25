@@ -19,9 +19,14 @@ div#region-header-second {
   width: 580px;
 }
 
+div#region-header-second div.home-page-quick-links img {
+  width: 95px;
+  height: 95px;
+}
+
 /* Preface Zone */
 
-div#region-preface-first .views-field-field-event-start-date {
+div#region-preface-first .views-field-field-event-date {
   font-size: 150%;
   border: 1px solid #ddd;
   width: 50px;
@@ -35,7 +40,7 @@ div#region-preface-first .views-field-title {
   padding-left: 60px;
 }
 
-div#region-preface-first .views-field-field-event-start-date-1 {
+div#region-preface-first .views-field-field-event-date-1 {
   color: #888;
   padding-left: 60px;
 }

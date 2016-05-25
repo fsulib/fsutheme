@@ -151,7 +151,18 @@ div#region-header-first .region-inner {
 }
 
 div#region-header-second li {
-  width: 22%;
+  width: 20%;
+  min-width: 100px;
+  height: 155px;
+}
+
+div#region-header-second li a {
+  font-size: 95%;
+}
+
+div#region-header-second div.home-page-quick-links img {
+  width: 90px;
+  height: 90px;
 }
 
 /* Preface Zone */
