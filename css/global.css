@@ -35,6 +35,16 @@ a:hover {
   text-decoration: underline;
 }
 
+hr {
+  background-color: #e4e4e4;
+}
+
+img {
+  border: none;
+  max-width: 100%;
+  height: auto;
+}
+
 ul.menu li.leaf {
   list-style: none;
   list-style-image: none;
@@ -54,7 +64,7 @@ ul.menu li.leaf {
 
 .ui-widget-header {
   border: none;
-  background-color: #e4e4e4;
+  background-color: #f0f0f0;
   background-image: none;
 }
 
@@ -81,6 +91,19 @@ ul.menu li.leaf {
 
 .ui-tabs .ui-tabs-nav li {
   margin: 0;
+}
+
+.fsutheme-button {
+  border: 1px solid #722d3d;
+  padding: 7px 30px;
+  margin: 10px 35px 0 0;
+  float: right;
+  text-transform: uppercase;
+}
+
+.fsutheme-button:hover {
+  background-color: #f4f4f4;
+  text-decoration: none;
 }
 
 /* User Zone */
@@ -190,7 +213,7 @@ div#zone-menu ul > li > ul.rm-removed {
 /* Header Zone */
 
 div#zone-header-wrapper {
-  background-color: #e4e4e4;
+  background-color: #f0f0f0;
   padding-top: 1px;
 }
 
@@ -224,7 +247,7 @@ div#region-header-second li {
 }
 
 div#region-header-second li:hover {
-  background-color: #ebdbb7;
+  background-color: #e4e4e4;
 }
 
 div#region-header-second li a {
@@ -243,15 +266,20 @@ div#zone-preface {
   margin-top: 20px;
 }
 
+div#region-preface-first .spotlight {
+  border-bottom: 1px solid #f0f0f0;
+  margin-bottom: 15px;
+}
+
 div#region-preface-first h3 {
-  color: #de9717;
+  color: #008e67;
   margin-bottom: 10px;
   text-shadow: none;
   letter-spacing: 0.4px;
 }
 
-div#region-preface-first h3 a {
-  color: #de9717;
+div#region-preface-first .spotlight h3 a {
+  color: #008e67;
 }
 
 div#region-preface-first img {
