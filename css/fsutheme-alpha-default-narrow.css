@@ -3,6 +3,13 @@
  *  apply to the normal and widescreen layouts. You may override these styles in the normal 
  *  and widescreen CSS files as appropriate. */
 
+/* global styles */
+
+div.two-column-table { width: 100%; display: block; overflow: auto; }
+div.two-column-table div.left-column { width: 50%; float: left; }
+div.two-column-table div.left-column p { padding-right: 20px; }
+div.two-column-table div.right-column { width: 50%; float: right; }
+
 /* User Zone */
 
 div#zone-user-wrapper {

@@ -9,6 +9,10 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+p {
+  margin-bottom: 1.5em;
+}
+
 body {
   margin: 0;
   font-family: "Benton Sans",Arial,sans-serif;
@@ -18,6 +22,7 @@ h1,h2,h3,h4,h5,h6 {
   font-family: "Benton Sans",Arial,sans-serif;
   color: #782f40;
   font-weight: normal;
+  margin-bottom: 12px;
 }
 
 h2.block-title {
@@ -106,6 +111,12 @@ ul.menu li.leaf {
   text-decoration: none;
 }
 
+.node-links ul li a, .comment-links ul li a {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f3ede1), color-stop(1, #dacaa6));
+  background: -moz-linear-gradient(top center, #f3ede1 0%, #dacaa6 100%);
+  color: #5f2835;
+}
+
 /* User Zone */
 
 div#zone-user-wrapper {
@@ -180,6 +191,7 @@ h1.site-name a, h2.site-name a {
   font-family: "Adobe Garamond Pro",adobe-garamond-pro,"Times New Roman",times,serif;
   color: #2c2a29;
   letter-spacing: 1.2px;
+  text-decoration: none;
 }
 
 h6.site-slogan {
@@ -355,8 +367,13 @@ div#region-preface-second .views-field-title {
 
 /* Content Zone */
 
+div.view-content .views-row .node {
+  border-top: 1px solid #f0f0f0;
+  padding: 15px 0;
+}
+
 div#zone-content div.region-content div.region-inner {
-  padding: 0 15px;
+  padding: 0 15px 20px 15px;
 }
 
 div#zone-content-wrapper {
