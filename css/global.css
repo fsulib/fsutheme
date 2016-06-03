@@ -11,6 +11,7 @@ html {
 
 p {
   margin-bottom: 1.5em;
+  font-size: 105%;
 }
 
 body {
@@ -20,9 +21,16 @@ body {
 
 h1,h2,h3,h4,h5,h6 {
   font-family: "Benton Sans",Arial,sans-serif;
-  color: #782f40;
   font-weight: normal;
   margin-bottom: 12px;
+}
+
+h1,h2,h3,h5,h6 {
+  color: #782f40;
+}
+
+h4 {
+  color: #636363;
 }
 
 h2.block-title {
@@ -333,10 +341,29 @@ div#region-preface-second .views-field-title {
 
 /* Sidebar First Region */
 
-#region-sidebar-first h2.block-title {
+#region-sidebar-first .block {
+  margin-bottom: 20px;
+} 
+
+#region-sidebar-first .block-block .content {
+  padding: 0 10px;
+}
+
+#region-sidebar-first .block-block h2.block-title {
+  background-color: #7c3546;
+  font-size: 120%;
+  padding: 7px 10px;
+  color: white;
+}
+
+#region-sidebar-first .block-menu h2.block-title {
   background-color: #f3ede1;
   font-size: 120%;
   padding: 7px 10px;
+}
+
+#region-sidebar-first li.leaf {
+  padding-top: 0;
 }
 
 #region-sidebar-first section.block-menu ul.menu li {
@@ -345,12 +372,25 @@ div#region-preface-second .views-field-title {
 
 #region-sidebar-first section.block-menu ul:first-child > li {
   border-bottom: 1px solid #cdcdcd;
-  padding: 5px 10px;
+  padding: 0;
 }
 
 #region-sidebar-first section.block-menu li a {
-  color: #585858;
-  font-size: 110%; 
+  color: #363636;
+  font-size: 110%;
+  width: 96%;
+  padding: 5px 0px 5px 10px;
+  display: block;
+  overflow: hidden;
+}
+
+#region-sidebar-first section.block-menu li a:hover {
+  background-color: #f9f8e9;
+  text-decoration: none;
+}
+
+#region-sidebar-first section.block-menu li a.active {
+  background-color: #f9f8e9;
 }
 
 #region-sidebar-first section.block-menu ul > li > ul {
