@@ -407,6 +407,22 @@ div#region-preface-second .views-field-title {
 
 /* Content Zone */
 
+div#zone-content #page-title {
+  font-family: "Adobe Garamond Pro",adobe-garamond-pro,"Times New Roman",times,serif;
+  text-align: left;
+  font-size: 320%;
+  letter-spacing: 0.1px;
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ceb888;
+}
+
+div#zone-content .subtitle {
+  color: #636363;
+  text-align: left;
+}
+
 div.view-content .views-row .node {
   border-top: 1px solid #f0f0f0;
   padding: 15px 0;
@@ -418,6 +434,10 @@ div#zone-content div.region-content div.region-inner {
 
 div#zone-content-wrapper {
   margin-top: 1em;
+}
+
+#zone-content div.taxonomy-term-description li { 
+  margin: 15px 0 5px 0px; 
 }
 
 div#summon-solr-result h3 {

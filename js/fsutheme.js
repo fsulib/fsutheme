@@ -82,3 +82,11 @@ function bookSearch(search_form) {
   window.location = query;  
   return false;
 }
+
+/* OneSearch Functions */
+function onesearchController(search_form) {
+  var base_url = "https://login.proxy.lib.fsu.edu/login?url=http://fsu.summon.serialssolutions.com/search?s.fvf%5B%5D=ContentType%2CBook+Review%2Ct&s.q=";
+  var path = base_url + document.forms[search_form]["search"].value; 
+  window.location = path;
+  return false;
+}
