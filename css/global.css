@@ -7,6 +7,7 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
 }
 
 p {
@@ -438,6 +439,24 @@ div#zone-content-wrapper {
 
 #zone-content div.taxonomy-term-description li { 
   margin: 15px 0 5px 0px; 
+}
+
+body.page-taxonomy-term	p {
+  padding: 5px 0;
+  line-height: 0.3em;
+  margin: 0;
+}
+
+body.page-taxonomy-term	p a {
+  text-decoration: none;
+}
+
+body.page-taxonomy-term	p a:hover {
+  text-decoration: underline;
+}
+
+body.page-taxonomy-term	p a em {
+  font-style: normal;
 }
 
 div#summon-solr-result h3 {
