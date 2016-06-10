@@ -16,6 +16,13 @@
       $("#tabs").tabs({
         heightStyle: "fill"
       });
+      
+      //Add three row carousel functionality
+      $(".carousel-three-items").slick({
+       infinite: true,
+       slidesToShow: 3,
+       slidesToScroll: 3
+     });
     }   
   };
 })(jQuery);

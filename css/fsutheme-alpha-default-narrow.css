@@ -182,10 +182,22 @@ div#region-preface-first .views-row {
   width: 45%;
 }
 
+div#region-preface-first div.region-inner {
+  border-right: 1px solid #d0d0d0;
+}
+
+div#region-preface-second .block-home-page-news-teasers-block {
+  padding-left: 30px;
+}
+
 /* Postscript Zone */
 
 div#zone-postscript .block {
   padding: 0 20px 0 5px;
+}
+
+div#zone-postscript .block-menu {
+  width: 100%;
 }
 
 /* Footer Zone */

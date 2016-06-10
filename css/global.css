@@ -7,7 +7,6 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
 }
 
 p {
@@ -143,7 +142,6 @@ div#zone-user, div#zone-user a,
 div#zone-user a:link, div#zone-user a:visited {
   color: white;
   font-weight: lighter;
-  opacity: 0.9;
 }
 
 div#zone-user a:hover {
@@ -288,7 +286,7 @@ div#zone-preface {
 }
 
 div#region-preface-first .spotlight {
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid #d0d0d0;
   margin-bottom: 15px;
 }
 
@@ -312,7 +310,7 @@ div#region-preface-first .content {
 }
 
 div#region-preface-first .views-row {
-  padding: 0 10px 15px 5px;
+  padding: 0 10px 30px 5px;
   float: left;
   width: 45%;
 }
@@ -490,10 +488,16 @@ div#load-wait img {
 
 div#zone-postscript-wrapper {
   background-color: #f3ede1;
+  padding-bottom: 10px;
 }
 
 div#zone-postscript {
   padding: 1.5em 0 0 0;
+}
+
+div#zone-postscript .block-menu {
+  float: left;
+  width: 50%;
 }
 
 div#zone-postscript ul.menu li {
@@ -530,7 +534,6 @@ div#zone-footer h4, div#zone-footer h5, div#zone-footer h6 {
 
 div#zone-footer p {
   margin: 5px 5px 15px 5px;
-  opacity: 0.9;
   line-height: 190%;
 }
 
