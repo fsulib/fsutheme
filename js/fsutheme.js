@@ -19,10 +19,28 @@
       
       //Add three row carousel functionality
       $(".carousel-three-items").slick({
-       infinite: true,
-       slidesToShow: 3,
-       slidesToScroll: 3
-     });
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        prevArrow: '<button class="slick-prev"><</button>',
+        nextArrow: '<button class="slick-next">></button>',
+        responsive: [
+          {
+            breakpoint: 980,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 740,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+      });
     }   
   };
 })(jQuery);

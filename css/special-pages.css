@@ -102,3 +102,53 @@ div.form-item-field-author-agreement-und > div.description {
     font-size: 125%;
 }
 div#edit-field-author-agreement { padding: 10px 0; }
+
+/* Styles for three column slick carousel */
+div.carousel-three-items .slick-slide {
+  margin: 0 10px;
+}
+
+div.carousel-three-items .slick-list {
+  margin: 0 -10px;
+  width: 100%;
+}
+
+div.carousel-three-items button.slick-prev {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 100%;
+  margin: 0;
+  border-radius: 0;
+  font-size: 140%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+div.carousel-three-items button.slick-prev:hover {
+  background-color: black;
+}
+
+div.carousel-three-items button.slick-prev:focus {
+  box-shadow: none;
+}
+
+div.carousel-three-items .slick-next {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  z-index: 1;
+  height: 100%;
+  margin: 0;
+  border-radius: 0;
+  font-size: 140%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+div.carousel-three-items button.slick-next:hover {
+  background-color: black;
+}
+
+div.carousel-three-items button.slick-next:focus {
+  box-shadow: none;
+}
