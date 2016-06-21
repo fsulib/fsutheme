@@ -84,8 +84,8 @@ function articleSearch(search_form) {
   return false;
 }
 
-/* Book Search Function */
-function bookSearch(search_form) {
+/* Summon Book Search Function */
+function summonBookSearch(search_form) {
 
   /* Get Filters set by user */
   var full_text_filter = document.getElementById("filter_book_full_text").checked;
@@ -105,6 +105,26 @@ function bookSearch(search_form) {
   query += "s.q=" + document.forms[search_form]["book_search_input"].value;
   
   window.location = query;  
+  return false;
+}
+
+/* Catalog Book Search Function */
+function catalogBookSearch(search_form) {
+ 
+  /* Get Filters set by user */
+  var full_text_filter = document.getElementById("filter_book_full_text").checked;
+  var book_review_filter = document.getElementById("filter_include_book_reviews").checked;
+
+  /* Create the query */
+  var query = document.forms[search_form]["base_query"].value;
+  query += document.forms[search_form]["book_search_input"].value;
+  query += "&ix=kw&fl=bo";
+  
+  if (full_text_filter) {
+    query += "&fa=materialtypes_facet%3AOnline%5C+Resource%5C%5BFS%5C%5D";
+  }
+  
+  window.location = query;
   return false;
 }
 

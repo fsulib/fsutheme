@@ -238,6 +238,11 @@ div#zone-header-wrapper {
 
 div#zone-header ul {
   list-style: none;
+  margin-bottom: 0;
+}
+
+div#zone-header .ui-tabs-panel ul {
+  padding-left: 20px;
 }
 
 div#region-header-first {
@@ -247,6 +252,10 @@ div#region-header-first {
 div#region-header-second {
   text-align: center;
   width: 100%;
+}
+
+div#region-header-second .block {
+  padding-top: 15px;
 }
 
 div#region-header-second p {

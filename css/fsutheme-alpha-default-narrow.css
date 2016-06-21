@@ -154,7 +154,8 @@ div#zone-header-wrapper {
 }
 
 div#region-header-first .region-inner {
-  padding-right: 40px;
+  padding-right: 30px;
+  padding-bottom: 20px;
 }
 
 div#region-header-second li {
