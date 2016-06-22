@@ -2,6 +2,30 @@
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
 
+/* Ask a Librarian Button */
+
+div#libchat_8dc4db4d87bea74f03769d6a5b7e86eb {
+  position: fixed;
+  right: 0;
+  top: 400px;
+  display: block;
+  width: 50px;
+  height: 80px;
+  overflow: hidden;
+  padding: 10px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #00a87f), color-stop(1, #008e67));
+  background: -moz-linear-gradient(top center, #00a87f 0%, #008e67 100%);
+  box-shadow: 10px 10px 5px #888888;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+/* Menu Zone */
+
+div#zone-menu {
+  font-size: 100%;
+}
+
 /* Header Zone */
 
 div#region-header-first {

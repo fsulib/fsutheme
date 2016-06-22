@@ -415,6 +415,10 @@ div#region-preface-second .views-field-title {
 
 /* Content Zone */
 
+div#breadcrumb {
+  display: none;
+}
+
 div#zone-content #page-title {
   font-family: "Adobe Garamond Pro",adobe-garamond-pro,"Times New Roman",times,serif;
   text-align: left;
@@ -556,4 +560,10 @@ div#zone-footer a:hover {
 
 div#zone-footer ul.menu {
   text-align: center;
+}
+
+/* Ask a Librarian button */
+
+div#libchat_8dc4db4d87bea74f03769d6a5b7e86eb {
+  display: none;
 }

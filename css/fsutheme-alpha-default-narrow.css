@@ -91,6 +91,7 @@ div#zone-menu-wrapper {
 
 div#zone-menu {
   z-index: 9999;
+  font-size: 90%;
 }
 
 div#zone-menu a, a:visited {
@@ -189,6 +190,13 @@ div#region-preface-first div.region-inner {
 
 div#region-preface-second .block-home-page-news-teasers-block {
   padding-left: 30px;
+}
+
+/* Content Zone */
+
+div#breadcrumb {
+  display: block;
+  padding: 5px 10px 10px 10px;
 }
 
 /* Postscript Zone */
