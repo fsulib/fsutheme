@@ -180,8 +180,12 @@ div#region-preface-first .spotlight {
   padding-right: 30px;
 }
 
+div#region-preface-first .content {
+  padding: 10px 50px 10px 10px;
+}
+
 div#region-preface-first .views-row {
-  width: 45%;
+  width: 100%;
 }
 
 div#region-preface-first div.region-inner {

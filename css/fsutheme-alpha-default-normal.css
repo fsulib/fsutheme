@@ -13,9 +13,9 @@ div#libchat_8dc4db4d87bea74f03769d6a5b7e86eb {
   height: 80px;
   overflow: hidden;
   padding: 10px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #00a87f), color-stop(1, #008e67));
-  background: -moz-linear-gradient(top center, #00a87f 0%, #008e67 100%);
-  box-shadow: 10px 10px 5px #888888;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #782f40), color-stop(1, #5f2835));
+  background: -moz-linear-gradient(top center, #782f40 0%, #5f2835 100%);
+  box-shadow: 6px 6px 3px #999999;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
@@ -110,8 +110,14 @@ div#region-preface-second .views-field-field-news-image	{
 }
 
 div#region-preface-second .views-row {
-  float: left;
-  width: 50%;
-  padding: 0 0 30px 0;
+  padding: 0 50px 30px 0;
   border-bottom: none;
+  min-height: 120px;
+}
+
+div#region-preface-second img {
+  float: left;
+  max-height: 120px;
+  max-width: 160px;
+  padding-right: 25px;
 }
