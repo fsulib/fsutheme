@@ -113,7 +113,6 @@ function catalogBookSearch(search_form) {
  
   /* Get Filters set by user */
   var full_text_filter = document.getElementById("filter_book_full_text").checked;
-  var book_review_filter = document.getElementById("filter_include_book_reviews").checked;
 
   /* Create the query */
   var query = document.forms[search_form]["base_query"].value;

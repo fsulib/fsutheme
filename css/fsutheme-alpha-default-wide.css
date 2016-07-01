@@ -26,7 +26,7 @@ div#region-header-second div.home-page-quick-links img {
 
 /* Preface Zone */
 
-div#region-preface-first .views-field-field-event-date {
+div#region-preface-second .views-field-field-event-date {
   font-size: 150%;
   border: 1px solid #ddd;
   width: 50px;
@@ -35,17 +35,17 @@ div#region-preface-first .views-field-field-event-date {
   float: left;
 }
 
-div#region-preface-first .views-field-title {
+div#region-preface-second .views-field-title {
   font-size: 120%;
   padding-left: 60px;
 }
 
-div#region-preface-first .views-field-field-event-date-1 {
+div#region-preface-second .views-field-field-event-date-1 {
   color: #888;
   padding-left: 60px;
 }
 
-div#region-preface-first .views-field-field-event-location {
+div#region-preface-second .views-field-field-event-location {
   color: #333;
   padding-left: 60px;
 }

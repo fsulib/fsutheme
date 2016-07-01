@@ -19,6 +19,10 @@ body {
   font-family: "Benton Sans",Arial,sans-serif;
 }
 
+em {
+  font-style: normal;
+}
+
 h1,h2,h3,h4,h5,h6 {
   font-family: "Benton Sans",Arial,sans-serif;
 }
@@ -36,39 +40,39 @@ h1,h2,h3,h5,h6 {
 }
 
 h1 {
- font-size: 50px;
+ font-size: 45px;
  font-weight: 200;
 }
 
 h2 {
-  font-size: 37px;
-  font-weight: 600;
+  font-size: 32px;
+  font-weight: 500;
 }
 
 h3 {
   font-weight: 200;
-  font-size: 29px;
+  font-size: 24px;
 }
 
 h4 {
-  color: #636363;
+  color: #363636;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 h5 {
-  font-weight: 200;
+  font-weight: 400;
   font-size: 16px;
 }
 
 h6 {
   font-weight: 600;
   font-size: 12px;
+  text-transform: uppercase;
 }
 
 h2.block-title {
-  font-size: 160%;
-  margin: 0 0 .5em 0;
+  font-size: 180%;
 }
 
 a, a:link, a:visited {
@@ -89,6 +93,12 @@ img {
   border: none;
   max-width: 100%;
   height: auto;
+}
+
+.lead {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
 }
 
 ul.menu li.leaf {
@@ -347,7 +357,7 @@ div#region-preface-first .spotlight {
   margin-bottom: 15px;
 }
 
-div#region-preface-first h3 {
+div#region-preface-second h3 {
   color: #008e67;
   margin-bottom: 10px;
   text-shadow: none;
@@ -358,17 +368,8 @@ div#region-preface-first .spotlight h3 a {
   color: #008e67;
 }
 
-div#region-preface-first img {
+div#region-preface-second img {
   display: none;
-}
-
-div#region-preface-first .content {
-  padding: 10px;
-}
-
-div#region-preface-first .views-row {
-  padding: 0 10px 30px 5px;
-  width: 100%;
 }
 
 div#region-preface-second .content {
@@ -376,23 +377,32 @@ div#region-preface-second .content {
 }
 
 div#region-preface-second .views-row {
+  padding: 0 10px 30px 5px;
+  width: 100%;
+}
+
+div#region-preface-first .content {
+  padding: 10px;
+}
+
+div#region-preface-first .views-row {
   text-align: left;
   padding: 0 0 30px 10px;
   border-bottom: 1px solid #efefef;
 }
 
-div#region-preface-second .views-more-link {
+div#region-preface-first .views-more-link {
   font-weight: bold;
   padding-left: 15px;
 }
 
-div#region-preface-second .views-more-link:after {
+div#region-preface-first .views-more-link:after {
   content: "⇢";
   display: inline-block;
   padding-left: 5px;
 }
 
-div#region-preface-second .views-field-field-news-image {
+div#region-preface-first .views-field-field-news-image {
   display: none;
 }
 
@@ -404,7 +414,7 @@ div#zone-preface h2.block-title	{
   margin-top: 0;
 }
 
-div#region-preface-second .views-field-title {
+div#region-preface-first .views-field-title {
   font-size: 120%;
   padding: 0 30px 15px 0;
 }
@@ -421,15 +431,17 @@ div#region-preface-second .views-field-title {
 
 #region-sidebar-first .block-block h2.block-title {
   background-color: #7c3546;
-  font-size: 120%;
-  padding: 7px 10px;
+  font-size: 140%;
+  padding: 9px 7px;
   color: white;
+  border-bottom: 3px solid #6b2435;
 }
 
 #region-sidebar-first .block-menu h2.block-title {
   background-color: #f3ede1;
-  font-size: 120%;
-  padding: 7px 10px;
+  font-size: 140%;
+  padding: 9px 7px;
+  border-bottom: 3px solid #d1cbc0;
 }
 
 #region-sidebar-first li.leaf {
@@ -449,7 +461,7 @@ div#region-preface-second .views-field-title {
   color: #363636;
   font-size: 110%;
   width: 96%;
-  padding: 5px 0px 5px 10px;
+  padding: 9px 0px 7px 10px;
   display: block;
   overflow: hidden;
 }
@@ -483,12 +495,12 @@ div#breadcrumb {
 
 div#zone-content #page-title {
   text-align: left;
-  font-size: 50px;
+  font-size: 45px;
   letter-spacing: 0.1px;
   width: 100%;
   padding-top: 0;
   padding-bottom: 10px;
-  border-bottom: 1px solid #ceb888;
+  /*border-bottom: 1px solid #ceb888;*/
 }
 
 div#zone-content .subtitle {
@@ -534,10 +546,12 @@ body.page-taxonomy-term	p a em {
 div#summon-solr-result h3 {
   margin-bottom: 0;
   text-shadow: none;
+  font-size: 150%;
+  font-weight: 500;
 }
 
 div#summon-solr-result h3 a {
-  color: #450c10;
+  color: #782f40;
 }
 
 div#summon-solr-result h5 {

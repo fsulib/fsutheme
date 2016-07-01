@@ -70,14 +70,12 @@ div.home-page-search input.edit-onesearch-block-submit {
   text-shadow: none;
 }
 
-div.home-page-search h4 {
+div.home-page-search h5 {
   text-shadow: none;
   margin-top: 15px;
   margin-bottom: 15px;
   float: left;
   width: 100%;
-  font-size: 115%;
-  color: #242424;
 }
 
 div.home-page-search ul {
@@ -100,22 +98,22 @@ div.home-page-search label {
 
 /* Preface Zone */
 
-div#region-preface-first img {
+div#region-preface-second img {
   display: block;
   padding-right: 20px;
 }
 
-div#region-preface-second .views-field-field-news-image	{
+div#region-preface-first .views-field-field-news-image	{
   display: block;
 }
 
-div#region-preface-second .views-row {
+div#region-preface-first .views-row {
   padding: 0 50px 30px 0;
   border-bottom: none;
   min-height: 120px;
 }
 
-div#region-preface-second img {
+div#region-preface-first img {
   float: left;
   max-height: 120px;
   max-width: 160px;

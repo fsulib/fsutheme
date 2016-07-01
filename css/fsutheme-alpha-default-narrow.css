@@ -108,6 +108,10 @@ div#zone-menu a:hover {
   background-color: #eee;
 }
 
+div#zone-menu ul.menu li {
+  margin: 0;
+}
+
 div#zone-menu ul li.expanded, div#zone-menu ul li.collapsed {
   list-style-image: none;
   list-style-type: none;
@@ -176,15 +180,15 @@ div#region-header-second div.home-page-quick-links img {
 
 /* Preface Zone */
 
-div#region-preface-first .spotlight {
+div#region-preface-second .spotlight {
   padding-right: 30px;
 }
 
-div#region-preface-first .content {
+div#region-preface-second .content {
   padding: 10px 50px 10px 10px;
 }
 
-div#region-preface-first .views-row {
+div#region-preface-second .views-row {
   width: 100%;
 }
 
@@ -192,8 +196,8 @@ div#region-preface-first div.region-inner {
   border-right: 1px solid #d0d0d0;
 }
 
-div#region-preface-second .block-home-page-news-teasers-block {
-  padding-left: 30px;
+div#region-preface-first .block-home-page-news-teasers-block {
+  padding-left: 0;
 }
 
 /* Content Zone */
