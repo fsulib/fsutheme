@@ -26,6 +26,10 @@ div#region-header-second div.home-page-quick-links img {
 
 /* Preface Zone */
 
+div#region-preface-second .views-row {
+  min-height: 70px;
+}
+
 div#region-preface-second .views-field-field-event-date {
   font-size: 150%;
   border: 1px solid #ddd;
@@ -48,4 +52,14 @@ div#region-preface-second .views-field-field-event-date-1 {
 div#region-preface-second .views-field-field-event-location {
   color: #333;
   padding-left: 60px;
+}
+
+/* three column carousel */
+
+div.carousel-three-items button.slick-prev {
+  max-height: 205px; 
+}
+
+div.carousel-three-items button.slick-next {
+  max-height: 205px; 
 }

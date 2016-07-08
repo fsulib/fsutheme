@@ -2,6 +2,14 @@
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
 
+/* Global Styles */
+
+div.three-column-table { width: 100%; display: block; overflow: auto; margin-bottom: 30px; }
+div.three-column-table div p { padding-left: 15px; }
+div.three-column-table div.left-column { width: 30%; float: left; padding: 0 10px; }
+div.three-column-table div.middle-column { width: 30%; float: left; padding: 0 10px;  }
+div.three-column-table div.right-column { width: 30%; float: left; padding: 0 10px;  }
+
 /* Ask a Librarian Button */
 
 div#libchat_8dc4db4d87bea74f03769d6a5b7e86eb {
@@ -24,6 +32,10 @@ div#libchat_8dc4db4d87bea74f03769d6a5b7e86eb {
 
 div#zone-menu {
   font-size: 100%;
+}
+
+div#zone-menu .block-main-menu ul > li > ul {
+  top: 32px;
 }
 
 /* Header Zone */
@@ -118,4 +130,14 @@ div#region-preface-first img {
   max-height: 120px;
   max-width: 160px;
   padding-right: 25px;
+}
+
+/* three column carousel */
+
+div.carousel-three-items button.slick-prev {
+  max-height: 160px; 
+}
+
+div.carousel-three-items button.slick-next {
+  max-height: 160px; 
 }

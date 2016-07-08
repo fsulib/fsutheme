@@ -175,6 +175,54 @@ span.subtitle-link {
   font-size: 80%;
 }
 
+div.three-column-table div p { padding-left: 10px; }
+
+h4.highlighted-resource {
+  color: white;
+  display: block;
+  width: 100%;
+  height: 15px;
+  overflow: hidden;
+  padding: 5px 0 10px 10px;
+  background-color: #007179;
+  box-shadow: 3px 3px 2px #999999;
+}
+
+.taxonomy-term-description {
+  margin-bottom: 10px;
+}
+
+h3.ui-accordion-header {
+  font-size: 120%;
+  font-weight: 500;
+  background-color: #f3ede1 !important;
+}
+
+h3.ui-accordion-header-active {
+  background-color: #7c3546 !important;
+  color: white;
+}
+
+div.view li.pager-previous a {
+  min-width: 90px;
+}
+
+body.node-type-news img {
+  float: right;
+  padding-left: 20px;
+}
+
+div.field-name-field-news-publication-date {
+  margin-bottom: 20px;
+  font-style: italic;
+  font-size: 90%;
+}
+
+img.centered-label-icon	{
+  vertical-align: middle;
+  margin: 0 25px 10px 25px;
+}
+
 /* User Zone */
 
 div#zone-user-wrapper {
@@ -223,6 +271,10 @@ div.region-user-second #block-summon-solr-search-summon-solr-search-block {
 div.region-user-second input#edit-onesearch-block-submit {
   float: none;
   margin-top: 0;
+}
+
+form#onesearch-form {
+  margin-top: 6px;
 }
 
 /* Branding Zone */
@@ -275,8 +327,13 @@ div#zone-menu a:hover {
 }
 
 div#zone-menu ul > li > ul.rm-removed {
-  display: none !important;
-  visibility: hidden !important;
+  /*display: none !important;
+  visibility: hidden !important;*/
+  padding-left: 20px;
+}
+
+div#zone-menu ul > li > ul.rm-removed li a {
+  text-transform: none;
 }
 
 /* Header Zone */
@@ -377,7 +434,7 @@ div#region-preface-second .content {
 }
 
 div#region-preface-second .views-row {
-  padding: 0 10px 30px 5px;
+  padding: 0 10px 20px 5px;
   width: 100%;
 }
 
@@ -453,7 +510,7 @@ div#region-preface-first .views-field-title {
 }
 
 #region-sidebar-first section.block-menu ul:first-child > li {
-  border-bottom: 1px solid #cdcdcd;
+  border-bottom: 1px solid #ceb888;
   padding: 0;
 }
 
@@ -572,6 +629,10 @@ div#load-wait img {
   margin-bottom: 20px;
 }
 
+div#zone-content li.node-readmore {
+  float: right;
+}
+
 /* Postscript Zone */
 
 div#zone-postscript-wrapper {
@@ -641,4 +702,18 @@ div#zone-footer ul.menu {
 
 div#libchat_8dc4db4d87bea74f03769d6a5b7e86eb {
   display: none;
+}
+
+/* three column carousel */
+
+div.carousel-three-items button.slick-prev {
+  max-height: 160px; 
+}
+
+div.carousel-three-items button.slick-next {
+  max-height: 160px; 
+}
+
+div.carousel-three-items h6 {
+  margin-top: 10px;
 }

@@ -139,7 +139,7 @@ div.carousel-three-items .slick-next {
   right: 20px;
   z-index: 1;
   height: 100%;
-  margin: 0;
+  margin: 0 -3px 0 0;
   border-radius: 0;
   font-size: 140%;
   background-color: rgba(0,0,0,0.5);
@@ -152,3 +152,18 @@ div.carousel-three-items button.slick-next:hover {
 div.carousel-three-items button.slick-next:focus {
   box-shadow: none;
 }
+
+/* News Page */
+
+body.page-news img {
+  float: left;
+  padding-right: 20px;
+}
+
+body.page-news li.node-readmore {
+  float: right;
+}
+
+/* Contact Us Page */
+
+body.context-contact-us div.three-column-table div p { padding-left: 35px; }

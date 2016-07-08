@@ -9,6 +9,8 @@
       
       //Add accordion functionality
       $("#accordion").accordion({
+        active: false,
+        collapsible: true,
         heightStyle: "content"
       });
       

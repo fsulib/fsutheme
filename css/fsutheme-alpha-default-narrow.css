@@ -41,6 +41,10 @@ div.region-user-second .block {
   width: 100%;
 }
 
+form#onesearch-form {
+  margin-top: 0;
+}
+
 div.region-user-second .block-summon-solr-search-block {
   padding-right: 0;
   width: auto;
@@ -125,7 +129,7 @@ div#zone-menu .block-main-menu {
 div#zone-menu .block-main-menu ul > li > ul {
   visibility: hidden;
   position: absolute;
-  top: 32px;
+  top: 29px;
   background-color: white;
   overflow: auto;
   width: auto;
@@ -233,4 +237,14 @@ div#zone-footer	ul.menu	{
 
 div#zone-footer p#giving {
   margin-left: -20px;
+}
+
+/* three column carousel */
+
+div.carousel-three-items button.slick-prev {
+  max-height: 178px; 
+}
+
+div.carousel-three-items button.slick-next {
+  max-height: 178px; 
 }
