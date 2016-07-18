@@ -95,6 +95,14 @@ img {
   height: auto;
 }
 
+blockquote {
+  border-top: 1px #ceb888 solid;
+  border-bottom: 1px #ceb888 solid;
+  font-size: 1.777em;
+  padding: 1.5em 1.7em 0 1.7em;
+  margin: 1.333em 0;
+}
+
 .lead {
   font-size: 18px;
   font-weight: 300;
@@ -541,7 +549,25 @@ div#region-preface-first .views-field-title {
 }
 
 #region-sidebar-first section.block-menu ul li.expanded {
-  list-style: none;
+  list-style: none; 
+}
+
+#region-sidebar-first section.block-menu ul li.expanded > a:after {
+  content: "\25b8";
+  padding-left: 10px;
+}
+
+#region-sidebar-first section.block-menu ul li.expanded.active-trail > a:after {
+  content: "\25be";
+  padding-left: 10px;
+}
+
+#region-sidebar-first section.block-menu ul.menu li.expanded ul.menu {
+  display: none;
+}
+
+#region-sidebar-first section.block-menu ul.menu li.active-trail ul.menu {
+  display: block;
 }
 
 /* Content Zone */
