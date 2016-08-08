@@ -25,8 +25,8 @@
         heightStyle: "fill"
       });
 
-      $(".tabs").tabs({
-        heightStyle: "fill"
+      $(".jq-tabs").tabs({
+        heightStyle: "content"
       });
       
       //Add three row carousel functionality
