@@ -231,6 +231,21 @@ img.centered-label-icon	{
   margin: 0 25px 10px 25px;
 }
 
+.garnet-border-button {
+  border: 1px solid #782f40;
+  padding: 5px 10px;
+  display: inline-block;
+  margin-right:	10px;
+}
+
+.garnet-border-button:hover {
+  background-color: #f3ede1;
+}
+
+.garnet-border-button a	{
+  text-decoration: none;
+}
+
 /* User Zone */
 
 div#zone-user-wrapper {

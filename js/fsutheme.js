@@ -14,8 +14,18 @@
         heightStyle: "content"
       });
       
+      $(".accordion").accordion({
+        active: false,
+        collapsible: true,
+        heightStyle: "content"
+      });      
+      
       //Add tabs functionality
       $("#tabs").tabs({
+        heightStyle: "fill"
+      });
+
+      $(".tabs").tabs({
         heightStyle: "fill"
       });
       
