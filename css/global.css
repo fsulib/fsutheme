@@ -246,6 +246,54 @@ img.centered-label-icon	{
   text-decoration: none;
 }
 
+.fa-icon-color-one {
+  font-size: 80px; 
+  color: #00a87f;
+  font-weight: 100;
+  margin-bottom: 0px;
+  padding-left: 25px;
+}
+
+.fa-icon-color-two {
+  font-size: 80px; 
+  color: #008896;
+  font-weight: 100;
+  margin-bottom: 0px;
+  padding-left: 25px !important;
+}
+
+.fa-icon-color-three {
+  font-size: 80px; 
+  color: #782f40;
+  font-weight: 100;
+  margin-bottom: 0px;
+  padding-left: 25px !important;
+}
+
+.fa-icon-color-four {
+  font-size: 80px; 
+  color: #df9818;
+  font-weight: 100;
+  margin-bottom: 0px;
+  padding-left: 25px;
+}
+
+.fa-icon-color-five {
+  font-size: 80px; 
+  color: #8ad2d1;
+  font-weight: 100;
+  margin-bottom: 0px;
+  padding-left: 25px !important;
+}
+
+.fa-icon-color-six {
+  font-size: 80px; 
+  color: #f0523f;
+  font-weight: 100;
+  margin-bottom: 0px;
+  padding-left: 25px !important;
+}
+
 /* User Zone */
 
 div#zone-user-wrapper {
@@ -742,7 +790,22 @@ div#zone-footer ul.menu {
 /* Ask a Librarian button */
 
 div#libchat_8dc4db4d87bea74f03769d6a5b7e86eb {
-  display: none;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  display: block;
+  width: 40px;
+  height: 64px;
+  overflow: hidden;
+  padding: 10px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #782f40), color-stop(1, #5f2835));
+  background: -moz-linear-gradient(top center, #782f40 0%, #5f2835 100%);
+  border-top-left-radius: 10px;
+}
+
+div#libchat_8dc4db4d87bea74f03769d6a5b7e86eb img {
+  width: 40px !important;
+  height: 64px !important;
 }
 
 /* three column carousel */

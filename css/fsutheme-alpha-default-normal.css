@@ -13,19 +13,16 @@ div.three-column-table div.right-column { width: 30%; float: left; padding: 0 10
 /* Ask a Librarian Button */
 
 div#libchat_8dc4db4d87bea74f03769d6a5b7e86eb {
-  position: fixed;
-  right: 0;
   top: 400px;
-  display: block;
+  box-shadow: 6px 6px 3px #999999;
+  border-bottom-left-radius: 10px;
   width: 50px;
   height: 80px;
-  overflow: hidden;
-  padding: 10px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #782f40), color-stop(1, #5f2835));
-  background: -moz-linear-gradient(top center, #782f40 0%, #5f2835 100%);
-  box-shadow: 6px 6px 3px #999999;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+}
+
+div#libchat_8dc4db4d87bea74f03769d6a5b7e86eb img {
+  width: 50px !important;
+  height: 80px !important;
 }
 
 /* Menu Zone */
