@@ -183,7 +183,7 @@ span.subtitle-link {
   font-size: 80%;
 }
 
-div.three-column-table div p { padding-left: 10px; }
+div.three-column-table div p: padding: 0; }
 
 h4.highlighted-resource {
   color: white;
@@ -191,9 +191,11 @@ h4.highlighted-resource {
   width: 100%;
   height: 15px;
   overflow: hidden;
-  padding: 5px 0 10px 10px;
+  padding: 5px 0 15px 10px;
   background-color: #007179;
   box-shadow: 3px 3px 2px #999999;
+  vertical-align: top;
+  font-weight: 400;
 }
 
 .taxonomy-term-description {
@@ -292,6 +294,20 @@ img.centered-label-icon	{
   font-weight: 100;
   margin-bottom: 0px;
   padding-left: 25px !important;
+}
+
+#zone-content .jq-tabs li {
+  margin: 0;
+}
+
+.jq-tabs .ui-widget-header {
+  background: none;
+}
+
+#zone-content .ui-tabs-panel {
+  border: none;
+  border-top: 1px solid #d3d3d3;
+  padding: 1em 0;
 }
 
 /* User Zone */
@@ -671,13 +687,21 @@ div#zone-content-wrapper {
   margin: 15px 0 5px 0px; 
 }
 
-body.page-taxonomy-term	p {
-  padding: 5px 0;
-  line-height: 0.3em;
-  margin: 0;
+div.taxonomy-term-description li {
+  padding-left: 10px;
 }
 
-body.page-taxonomy-term	p a {
+div.taxonomy-term-description ul {
+  list-style: none;
+}
+
+div.field-name-e-resource-linked-title p {
+  padding: 5px 0;
+  line-height: 0.9em;
+  margin: 0 0 0 10px;
+}
+
+div.field-name-e-resource-linked-title p a {
   text-decoration: none;
 }
 
@@ -687,6 +711,11 @@ body.page-taxonomy-term	p a:hover {
 
 body.page-taxonomy-term	p a em {
   font-style: normal;
+}
+
+.feed-icon {
+  float: right;
+  margin-bottom: 10px;
 }
 
 div#summon-solr-result h3 {
