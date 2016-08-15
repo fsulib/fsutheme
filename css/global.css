@@ -588,6 +588,11 @@ div#region-preface-first .views-field-title {
   border-bottom: 3px solid #d1cbc0;
 }
 
+#region-sidebar-first ul li.collapsed {
+  list-style-image: none;
+  list-style-type: none;
+}
+
 #region-sidebar-first li.leaf {
   padding-top: 0;
 }
