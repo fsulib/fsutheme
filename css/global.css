@@ -183,7 +183,7 @@ span.subtitle-link {
   font-size: 80%;
 }
 
-div.three-column-table div p: padding: 0; }
+div.three-column-table div p { padding: 0; }
 
 h4.highlighted-resource {
   color: white;
