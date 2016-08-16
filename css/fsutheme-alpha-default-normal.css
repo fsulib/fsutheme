@@ -4,10 +4,20 @@
 
 /* Global Styles */
 
+/* Three column layout */
+
 div.three-column-table { width: 100%; display: block; overflow: auto; margin-bottom: 30px; }
 div.three-column-table div.left-column { width: 30%; float: left; padding: 0 10px; }
 div.three-column-table div.middle-column { width: 30%; float: left; padding: 0 10px;  }
 div.three-column-table div.right-column { width: 30%; float: left; padding: 0 10px;  }
+
+/* Four	column layout */
+
+div.four-column-table { width: 100%; display: block; overflow: auto; margin-bottom: 30px; }
+div.four-column-table div.left-column { width: 22%; float: left; padding: 0 0 0 10px; }
+div.four-column-table div.middle-left-column { width: 22%; float: left; padding: 0 5px 0 10px;  }
+div.four-column-table div.middle-right-column { width: 22%; float: left; padding: 0 10px 0 5px;  }
+div.four-column-table div.right-column { width:	22%; float: left; padding: 0 10px 0 0; }
 
 /* Ask a Librarian Button */
 

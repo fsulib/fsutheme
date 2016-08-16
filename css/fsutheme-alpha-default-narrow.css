@@ -23,6 +23,14 @@ div.two-column-table div.right-column h4 { padding-left: 10px; }
 div.two-column-table div.right-column h5 { padding-left: 10px; }
 div.two-column-table div.right-column h6 { padding-left: 10px; }
 
+/* Four column layout */
+
+div.four-column-table { width: 100%; display: block; overflow: auto; margin-bottom: 30px; }
+div.four-column-table div.left-column { width: 46%; float: left; padding: 0 0 15px 10px; }
+div.four-column-table div.middle-left-column { width: 46%; float: left; padding: 0 10px 15px 10px;  }
+div.four-column-table div.middle-right-column { width: 46%; float: left; padding: 0 10px;  }
+div.four-column-table div.right-column { width: 46%; float: left; padding: 0 10px 0 0; }
+
 /* User Zone */
 
 div#zone-user-wrapper {
