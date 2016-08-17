@@ -47,12 +47,8 @@ div#zone-menu .block-main-menu ul > li > ul {
 /* Header Zone */
 
 div#region-header-first {
-  display: block;
+  width: 460px;
   margin-top: 25px;
-}
-
-div#region-header-first div.home-page-search-block div.content {
-  height: 310px;
 }
 
 div#region-header-first ul.ui-tabs-nav li {
@@ -69,49 +65,10 @@ div.home-page-search {
 
 div.home-page-search input.form-text {
   width: 292px;
-  height: 40px;
-  float: left;
-  margin-top: 10px;
-  font-size: 16px;
 }
 
-div.home-page-search input.edit-onesearch-block-submit {
-  float: left;
-  width: 80px;
-  height: 40px;
-  margin-top: 10px;
-  font-size: 15px;
-  color: white;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #00a87f), color-stop(1, #008e67));
-  background: -moz-linear-gradient(top center, #00a87f 0%, #008e67 100%);
-  background-color: #00a87f;
-  text-shadow: none;
-}
-
-div.home-page-search h5 {
-  text-shadow: none;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  float: left;
-  width: 100%;
-}
-
-div.home-page-search ul {
-  float: left;
-  width: 100%;
-}
-
-div.home-page-search li {
-  float: left;
-  width: 50%;
-  margin-bottom: 10px;
-  font-size: 90%;
-  
-}
-
-div.home-page-search label {
-  font-weight: normal;
-  display: inline;
+div#region-header-second li {
+  width: 20%;
 }
 
 /* Preface Zone */

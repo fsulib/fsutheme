@@ -10,6 +10,10 @@ div.four-column-table div.right-column { width: 23%; float: left; padding: 0 10p
 
 /* Header Zone */
 
+div#region-header-first {
+  width: 580px;
+}
+
 div#region-header-first ul.ui-tabs-nav li {
   font-size: 100%;
 }
