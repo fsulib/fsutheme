@@ -6,7 +6,7 @@
 /* global styles */
 
 div.two-column-table { width: 100%; display: block; overflow: auto; }
-div.two-column-table div.left-column { width: 50%; float: left; }
+div.two-column-table div.left-column { width: 49.5%; float: left; }
 div.two-column-table div.left-column p { padding-right: 10px; }
 div.two-column-table div.left-column h1 { padding-right: 10px; }
 div.two-column-table div.left-column h2 { padding-right: 10px; }
@@ -14,7 +14,7 @@ div.two-column-table div.left-column h3 { padding-right: 10px; }
 div.two-column-table div.left-column h4 { padding-right: 10px; }
 div.two-column-table div.left-column h5 { padding-right: 10px; }
 div.two-column-table div.left-column h6 { padding-right: 10px; }
-div.two-column-table div.right-column { width: 50%; float: right; }
+div.two-column-table div.right-column { width: 49.5%; float: right; }
 div.two-column-table div.right-column p { padding-left: 10px; }
 div.two-column-table div.right-column h1 { padding-left: 10px; }
 div.two-column-table div.right-column h2 { padding-left: 10px; }
@@ -22,6 +22,10 @@ div.two-column-table div.right-column h3 { padding-left: 10px; }
 div.two-column-table div.right-column h4 { padding-left: 10px; }
 div.two-column-table div.right-column h5 { padding-left: 10px; }
 div.two-column-table div.right-column h6 { padding-left: 10px; }
+
+.border-right {
+  border-right: 1px #d3d3d3 solid;
+}
 
 /* Four column layout */
 
@@ -64,6 +68,10 @@ div.region-user-second .block {
 
 form#onesearch-form {
   margin-top: 0;
+}
+
+form#onesearch-inline-form .form-text {
+  width: 470px;
 }
 
 div.region-user-second .block-summon-solr-search-block {

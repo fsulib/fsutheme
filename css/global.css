@@ -217,7 +217,7 @@ div.view li.pager-previous a {
   min-width: 90px;
 }
 
-body.node-type-news img {
+body.node-type-news div#zone-content img {
   float: right;
   padding-left: 20px;
 }
@@ -296,10 +296,6 @@ img.centered-label-icon	{
   padding-left: 25px !important;
 }
 
-#zone-content .jq-tabs li {
-  margin: 0;
-}
-
 .jq-tabs .ui-widget-header {
   background: none;
 }
@@ -311,12 +307,6 @@ div.four-column-table div.left-column { width: 45%; float: left; padding: 0 0 15
 div.four-column-table div.middle-left-column { width: 45%; float: left; padding: 0 2.5% 15px 2.5%;  }
 div.four-column-table div.middle-right-column { width: 45%; float: left; padding: 0 2.5%;  }
 div.four-column-table div.right-column { width: 45%; float: left; padding: 0 2.5% 0 0; }
-
-#zone-content .ui-tabs-panel {
-  border: none;
-  border-top: 1px solid #d3d3d3;
-  padding: 1em 0;
-}
 
 /* User Zone */
 
@@ -705,6 +695,20 @@ div.taxonomy-term-description li {
 
 div.taxonomy-term-description ul {
   list-style: none;
+}
+
+#zone-content .jq-tabs li {
+  margin: 0;
+}
+
+#zone-content .ui-tabs-panel {
+  border: none;
+  border-top: 1px solid #d3d3d3;
+  padding: 1em 0;
+}
+
+#zone-content li {
+  margin-left: 20px;
 }
 
 div.field-name-e-resource-linked-title p {
