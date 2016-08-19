@@ -19,3 +19,10 @@ function fsutheme_preprocess(&$variables, $hook) {
   drupal_add_js(libraries_get_path('slick') . '/slick/slick.js');
   drupal_add_css(libraries_get_path('slick') . '/slick/slick.css');
 }
+
+function fsutheme_breadcrumb(&$variables) {
+  $breadcrumb = $variables['breadcrumb'];
+  $breadcrumb[] = drupal_get_title();
+  $output .= '<div class="breadcrumb">' . implode('&nbsp;  >>  &nbsp;', $breadcrumb) . '</div>';
+  return $output;
+}
