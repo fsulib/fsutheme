@@ -167,3 +167,35 @@ body.page-news li.node-readmore {
 /* Contact Us Page */
 
 body.context-contact-us div.three-column-table div p { padding-left: 35px; }
+
+/* DRS Home Page */
+
+div.view-drs-page-news-teasers .views-field-title {
+
+}
+
+/* Taxonomy Term View */
+
+div.view-taxonomy-term div.view-content .views-row .node {
+  border: none;
+  padding: 5px 0 5px 10px;
+}
+
+div.view-taxonomy-term div.view-header li {
+  list-style: none;
+  margin: 15px 0 5px 0;
+}
+
+/* Subject Librarian Page */
+
+div.view-library-staff img {
+  float: right;
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+
+/* Eresource Page */
+body.node-type-e-resource div.field-item img {
+  max-width: 450px;
+  width: 100%;
+}
