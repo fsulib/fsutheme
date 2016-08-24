@@ -22,7 +22,8 @@ div.two-column-table div.right-column h3 { padding-left: 10px; }
 div.two-column-table div.right-column h4 { padding-left: 10px; }
 div.two-column-table div.right-column h5 { padding-left: 10px; }
 div.two-column-table div.right-column h6 { padding-left: 10px; }
-
+div.two-column-table div.left-column-forty { width: 39.5%; float: left; }
+div.two-column-table div.right-column-sixty { width: 59.5%; float: right; }
 .border-right {
   border-right: 1px #d3d3d3 solid;
 }
