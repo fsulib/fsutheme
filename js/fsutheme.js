@@ -28,6 +28,13 @@
       $(".jq-tabs").tabs({
         heightStyle: "content"
       });
+
+      //Add popup functionality
+      var opt = { modal: true };
+      $(".jq-dialog-link").click(function () {
+        $(".jq-dialog").dialog( opt ).dialog('open');
+        return false;
+      });
       
       //Add three row carousel functionality
       $(".carousel-three-items").slick({

@@ -16,6 +16,7 @@ function fsutheme_preprocess(&$variables, $hook) {
     array('type' => 'external'));
   drupal_add_library('system', 'ui.accordion');
   drupal_add_library('system', 'ui.tabs');
+  drupal_add_library('system', 'ui.dialog');
   drupal_add_js(libraries_get_path('slick') . '/slick/slick.js');
   drupal_add_css(libraries_get_path('slick') . '/slick/slick.css');
 }
