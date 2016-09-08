@@ -1,3 +1,16 @@
+/* Special Alert News */
+
+div#region-preface-first div.view-home-page-news-teasers div.views-row.views-row-1 {
+  /*border: 1px solid red;
+  background-color: yellow;
+  padding-bottom: 0;
+  margin-bottom: 30px;*/
+} 
+
+div#region-preface-first div.view-home-page-news-teasers div.views-row.views-row-1 .views-field-title {
+  /*padding-top: 20px;*/
+}
+
 /* Login Form */
 
 #user-login .item-list { display: none; }
