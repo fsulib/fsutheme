@@ -199,6 +199,11 @@ div.view-drs-page-news-teasers .views-more-link:after {
   padding-left: 5px;
 }
 
+div.view-drs-page-news-teasers div.views-row {
+  float: left;
+  margin-bottom: 20px;
+} 
+
 /* Taxonomy Term View */
 
 div.view-taxonomy-term div.view-content .views-row .node {
