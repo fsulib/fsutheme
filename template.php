@@ -24,6 +24,6 @@ function fsutheme_preprocess(&$variables, $hook) {
 function fsutheme_breadcrumb(&$variables) {
   $breadcrumb = $variables['breadcrumb'];
   $breadcrumb[] = drupal_get_title();
-  $output .= '<div class="breadcrumb">' . implode('&nbsp;  >>  &nbsp;', $breadcrumb) . '</div>';
+  $output = '<div class="breadcrumb">' . implode('&nbsp;  >>  &nbsp;', $breadcrumb) . '</div>';
   return $output;
 }

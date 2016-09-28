@@ -153,3 +153,15 @@ function onesearchController(search_form) {
   window.location = path;
   return false;
 }
+
+/* Tooltip function */
+
+function fsuthemeTooltip($) {
+  var tooltipLinkElement = $('.tooltip-link');
+
+  tooltipLinkElement.each(function() {
+    var self = $(this),
+        selfTooltipText = self.data('tooltip-text');
+    if  ( selfTooltipText ) $('<span/>', {class: 'tooltip', text: selfTooltipText}).appendTo(self);
+  });
+}

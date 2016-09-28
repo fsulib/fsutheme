@@ -300,8 +300,54 @@ img.centered-label-icon	{
   padding-left: 25px !important;
 }
 
+.fa-icon-tooltip {
+  font-size: 20px !important;
+  color: #782f40;
+  font-weight: 100;
+}
+
 .jq-tabs .ui-widget-header {
   background: none;
+}
+
+.tooltip-link {
+  display: block;
+  position: relative;
+}
+
+.tooltip-link:hover .tooltip {
+  opacity: 1;
+  transform: scaleY(1);
+}
+
+.tooltip {
+  display: block;
+  position: absolute;
+  left: 8px;
+  bottom: 125%;
+  width: 220px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f3ede1;
+  color: black;
+  text-transform: none;
+  font-size: 13px;
+  box-shadow: 6px 6px 3px #aaa;
+  opacity: 0;
+  transform: scaleY(0);
+  transition: all 0.2s ease;
+}
+
+.tooltip:after {
+  position: absolute;
+  content: '';
+  left: 10px;
+  bottom: -5px;
+  width: 0;
+  height: 0;
+  border-top: 5px solid #f3ede1;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
 }
 
 /* Four column layout */
