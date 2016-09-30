@@ -256,7 +256,8 @@ img.centered-label-icon	{
   color: #00a87f;
   font-weight: 100;
   margin-bottom: 0px;
-  padding-left: 25px;
+  padding-left: 25px !important;
+  padding-bottom: 10px;
 }
 
 .fa-icon-color-two {
@@ -264,6 +265,7 @@ img.centered-label-icon	{
   font-weight: 100;
   margin-bottom: 0px;
   padding-left: 25px !important;
+  padding-bottom: 10px;
 }
 
 .fa-icon-color-three {
@@ -271,13 +273,15 @@ img.centered-label-icon	{
   font-weight: 100;
   margin-bottom: 0px;
   padding-left: 25px !important;
+  padding-bottom: 10px;
 }
 
 .fa-icon-color-four {
   color: #df9818;
   font-weight: 100;
   margin-bottom: 0px;
-  padding-left: 25px;
+  padding-left: 25px !important;
+  padding-bottom: 10px;
 }
 
 .fa-icon-color-five {
@@ -285,6 +289,7 @@ img.centered-label-icon	{
   font-weight: 100;
   margin-bottom: 0px;
   padding-left: 25px !important;
+  padding-bottom: 10px;
 }
 
 .fa-icon-color-six {
@@ -292,6 +297,7 @@ img.centered-label-icon	{
   font-weight: 100;
   margin-bottom: 0px;
   padding-left: 25px !important;
+  padding-bottom: 10px;
 }
 
 .fa-icon-tooltip {
