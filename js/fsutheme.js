@@ -165,3 +165,10 @@ function fsuthemeTooltip($) {
     if  ( selfTooltipText ) $('<span/>', {class: 'tooltip', text: selfTooltipText}).appendTo(self);
   });
 }
+
+/* Find an Article Page Functions */
+function makeURL(the_form) {
+var query = document.forms[the_form]["base_url"].value + document.forms[the_form]["article_search_query"].value + document.forms[the_form]["middle_url"].value + document.forms[the_form]["end_url"].value;
+window.location = query;
+return false;
+}
