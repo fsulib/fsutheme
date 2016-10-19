@@ -177,6 +177,42 @@ body.page-news li.node-readmore {
   float: right;
 }
 
+/* Calendar Events Page */
+.localist_widget_container li.lw_event_item {
+  border: 1px solid #782f40 !important;
+  background-color: #f3ede1 !important;
+}
+
+.localist_widget_container .action_button a {
+  background-color: #782f40 !important;
+}
+
+.localist_widget_container .action_button a:hover {
+  background-color: #47222a !important;
+  color: white !important;
+}
+
+.lw_event_meta .pin {
+  background-color: #782f40;
+}
+
+.lw_event_meta .clock {
+  border: 2px solid #782f40;
+}
+
+.lw_event_meta .clock:after {
+  border: 1px solid #782f40;
+}
+
+.lw_event_meta .clock:before {
+  border: 1px solid #782f40;
+}
+
+.lw_event_item_date {
+  font-size: 16px !important;
+  font-weight: bold !important;
+}
+
 /* Contact Us Page */
 
 body.context-contact-us div.three-column-table div p { padding-left: 35px; }
