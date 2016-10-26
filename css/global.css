@@ -350,6 +350,10 @@ img.centered-label-icon	{
   border-left: 5px solid transparent;
 }
 
+.scheduleButton {
+  width: 140px; height: 30px; margin: 5px 8px; vertical-align: top;
+}
+
 /* Four column layout */
 
 div.four-column-table { width: 100%; display: block; overflow: auto; margin-bottom: 30px; }
