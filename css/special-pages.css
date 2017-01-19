@@ -223,6 +223,8 @@ body.context-contact-us div.three-column-table div p { padding-left: 35px; }
 div.view-drs-page-news-teasers img {
   float: left;
   padding-right: 20px;
+  max-height: 120px;
+  max-width: 160px;
 }
 
 div.view-drs-page-news-teasers .views-more-link {
