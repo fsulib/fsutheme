@@ -266,3 +266,9 @@ body.node-type-e-resource div.field-item img {
   max-width: 450px;
   width: 100%;
 }
+
+/* Software Pages */
+.node-type-software .field-name-field-software-image img {
+  float: right;
+  margin-left: 20px;
+}
