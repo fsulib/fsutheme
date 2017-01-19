@@ -75,3 +75,9 @@ div.carousel-three-items button.slick-prev {
 div.carousel-three-items button.slick-next {
   max-height: 205px; 
 }
+
+/* live stream */
+
+div.lib-live-video {
+  height: 478px;
+}

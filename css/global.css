@@ -919,3 +919,9 @@ div.carousel-three-items button.slick-next {
 div.carousel-three-items h6 {
   margin-top: 10px;
 }
+
+/* live stream */
+
+div.lib-live-video {
+  height: 240px;
+}

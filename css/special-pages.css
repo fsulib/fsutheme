@@ -185,6 +185,7 @@ body.page-news li.node-readmore {
 
 .localist_widget_container .action_button a {
   background-color: #782f40 !important;
+  color: white !important;
 }
 
 .localist_widget_container .action_button a:hover {
