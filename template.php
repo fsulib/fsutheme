@@ -19,6 +19,18 @@ function fsutheme_preprocess(&$variables, $hook) {
   drupal_add_library('system', 'ui.dialog');
   drupal_add_js(libraries_get_path('slick') . '/slick/slick.js');
   drupal_add_css(libraries_get_path('slick') . '/slick/slick.css');
+
+  //Prevent snippets from Google
+  $googlebot_nosnippet_tag = array(
+    '#type' => 'html_tag',
+    '#tag' => 'meta',
+    '#attributes' => array(
+      'name' => 'googlebot',
+      'content' => 'nosnippet',
+    )
+  );
+
+  drupal_add_html_head($googlebot_nosnippet_tag, 'googlebot_nosnippet');
 }
 
 function fsutheme_breadcrumb(&$variables) {
