@@ -177,6 +177,24 @@ body.page-news li.node-readmore {
   float: right;
 }
 
+blockquote.image-field-caption {
+  display: none;
+}
+
+body.node-type-news blockquote.image-field-caption {
+  clear: both;
+  display: block;
+  float: right;
+  min-width: 360px;
+  max-width: 380px;
+  border: none; 
+  text-align: center;
+  margin: 5px 10px 5px 20px;
+  padding: 0;
+  font-style: italic;
+  font-size: 0.9em;
+}
+
 /* Calendar Events Page */
 .localist_widget_container li.lw_event_item {
   border: 1px solid #782f40 !important;
