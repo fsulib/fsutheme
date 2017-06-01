@@ -2,24 +2,24 @@
  * @file
  * A JavaScript file for the theme.
  */
- 
+
 (function ($) {
   Drupal.behaviors.fsutheme = {
-    attach: function(context, settings) {           
-      
+    attach: function(context, settings) {
+
       //Add accordion functionality
       $("#accordion").accordion({
         active: false,
         collapsible: true,
         heightStyle: "content"
       });
-      
+
       $(".accordion").accordion({
         active: false,
         collapsible: true,
         heightStyle: "content"
-      });      
-      
+      });
+
       //Add tabs functionality
       $("#tabs").tabs({
         heightStyle: "fill"
@@ -29,13 +29,24 @@
         heightStyle: "content"
       });
 
+      //Code to open accordion to specific tab
+      if(window.location.hash) {
+        var hash = window.location.hash.substring(1); //Puts hash in variable
+        var id_index_array = hash.split("_");
+        $("#" + id_index_array[0]).accordion({
+         active: Number(id_index_array[1]) - 1
+        });
+	location.href = "#";
+        location.href = "#" + id_index_array[0];
+      }
+
       //Add popup functionality
       var opt = { modal: true };
       $(".jq-dialog-link").click(function () {
         $(".jq-dialog").dialog( opt ).dialog('open');
         return false;
       });
-      
+
       //Add three row carousel functionality
       $(".carousel-three-items").slick({
         infinite: true,
@@ -60,7 +71,7 @@
           }
         ]
       });
-    }   
+    }
   };
 })(jQuery);
 
@@ -95,11 +106,11 @@ function articleSearch(search_form) {
   query += "s.q=" + document.forms[search_form]["article_search_input"].value;
 
   if (date_range_filter) {
-    query += "&amp;s.cmd=setRangeFilter(PublicationDate," + 
+    query += "&amp;s.cmd=setRangeFilter(PublicationDate," +
       document.forms[search_form]["date_range"].value + ":*)";
-  }  
+  }
 
-  window.location = query;  
+  window.location = query;
   return false;
 }
 
@@ -112,24 +123,24 @@ function summonBookSearch(search_form) {
 
   /* Create the query */
   var query = document.forms[search_form]["base_query"].value;
-  
+
   if (full_text_filter) {
     query += "s.fvf%5B%5D=IsFullText%2Ctrue%2Cf&amp;";
   }
-  
+
   if (!book_review_filter) {
     query += "s.fvf%5B%5D=ContentType%2CBook+Review%2Ct&amp;";
   }
-  
+
   query += "s.q=" + document.forms[search_form]["book_search_input"].value;
-  
-  window.location = query;  
+
+  window.location = query;
   return false;
 }
 
 /* Catalog Book Search Function */
 function catalogBookSearch(search_form) {
- 
+
   /* Get Filters set by user */
   var full_text_filter = document.getElementById("filter_book_full_text").checked;
 
@@ -137,11 +148,11 @@ function catalogBookSearch(search_form) {
   var query = document.forms[search_form]["base_query"].value;
   query += document.forms[search_form]["book_search_input"].value;
   query += "&ix=kw&fl=bo";
-  
+
   if (full_text_filter) {
     query += "&fa=materialtypes_facet%3AOnline%5C+Resource%5C%5BFS%5C%5D";
   }
-  
+
   window.location = query;
   return false;
 }
