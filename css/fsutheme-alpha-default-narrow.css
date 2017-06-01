@@ -36,6 +36,27 @@ div.four-column-table div.middle-left-column { width: 46%; float: left; padding:
 div.four-column-table div.middle-right-column { width: 46%; float: left; padding: 0 10px;  }
 div.four-column-table div.right-column { width: 46%; float: left; padding: 0 10px 0 0; }
 
+/* Five by Two column layout */
+div.five-by-two-column-table a { 
+ display: block; 
+ width: 121px; 
+ height: 71px; 
+ font-size: 100%; 
+ padding: 5px 0 0 10px; 
+ text-shadow: 1px 1px 1px black;
+}
+div.five-by-two-column-table { width: 100%; display: block; overflow: auto; margin-bottom: 30px; }
+div.five-by-two-column-table div.first-column { width: 121px; float: left; padding: 0 1% 1% 0; height: 71px; background-size: 121px 71px; }
+div.five-by-two-column-table div.second-column { width: 121px; float: left; padding: 0 1% 1% 0; height: 71px; background-size: 121px 71px; }
+div.five-by-two-column-table div.third-column { width: 121px; float: left; padding: 0 1% 1% 0; height: 71px; background-size: 121px 71px;  }
+div.five-by-two-column-table div.fourth-column { width: 121px; float: left; padding: 0 1% 1% 0; height: 71px; background-size: 121px 71px; }
+div.five-by-two-column-table div.fifth-column { width: 121px; float: left; padding: 0 1% 1% 0; height: 71px; background-size: 121px 71px; }
+div.five-by-two-column-table div.sixth-column { width: 121px; float: left; padding: 0 1% 1% 0; height: 71px; background-size: 121px 71px;  }
+div.five-by-two-column-table div.seventh-column { width: 121px; float: left; padding: 0 1% 1% 0; height: 71px; background-size: 121px 71px; }
+div.five-by-two-column-table div.eighth-column { width: 121px; float: left; padding: 0 1% 1% 0; height: 71px; background-size: 121px 71px; }
+div.five-by-two-column-table div.ninth-column { width: 121px; float: left; padding: 0 1% 1% 0; height: 71px; background-size: 121px 71px; }
+div.five-by-two-column-table div.tenth-column { width: 121px; float: left; padding: 0 1% 1% 0; height: 71px; background-size: 121px 71px; }
+
 /* User Zone */
 
 div#zone-user-wrapper {
