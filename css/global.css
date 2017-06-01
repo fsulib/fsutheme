@@ -726,6 +726,10 @@ div#region-preface-first .views-field-title {
   display: block;
 }
 
+#region-sidebar-first section.custom-block-1 {
+  border: 1px solid #782f40;
+}
+
 /* Content Zone */
 
 div#breadcrumb {
