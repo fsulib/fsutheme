@@ -19,6 +19,27 @@ div.four-column-table div.middle-left-column { width: 22%; float: left; padding:
 div.four-column-table div.middle-right-column { width: 22%; float: left; padding: 0 10px 0 5px;  }
 div.four-column-table div.right-column { width:	22%; float: left; padding: 0 10px 0 0; }
 
+/* Five by Two column layout */
+div.five-by-two-column-table a { 
+ display: block; 
+ width: 169px; 
+ height: 100px; 
+ font-size: 145%; 
+ padding: 5px 0 0 10px; 
+ text-shadow: 1px 1px 1px black;
+}
+div.five-by-two-column-table { width: 100%; display: block; overflow: auto; margin-bottom: 30px; }
+div.five-by-two-column-table div.first-column { width: 169px; float: left; padding: 0 1% 1% 0; height: 100px; background-size: 169px 100px; }
+div.five-by-two-column-table div.second-column { width: 169px; float: left; padding: 0 1% 1% 0; height: 100px; background-size: 169px 100px; }
+div.five-by-two-column-table div.third-column { width: 169px; float: left; padding: 0 1% 1% 0; height: 100px; background-size: 169px 100px;  }
+div.five-by-two-column-table div.fourth-column { width: 169px; float: left; padding: 0 1% 1% 0; height: 100px; background-size: 169px 100px; }
+div.five-by-two-column-table div.fifth-column { width: 169px; float: left; padding: 0 1% 1% 0; height: 100px; background-size: 169px 100px; }
+div.five-by-two-column-table div.sixth-column { width: 169px; float: left; padding: 0 1% 1% 0; height: 100px; background-size: 169px 100px;  }
+div.five-by-two-column-table div.seventh-column { width: 169px; float: left; padding: 0 1% 1% 0; height: 100px; background-size: 169px 100px; }
+div.five-by-two-column-table div.eighth-column { width: 169px; float: left; padding: 0 1% 1% 0; height: 100px; background-size: 169px 100px; }
+div.five-by-two-column-table div.ninth-column { width: 169px; float: left; padding: 0 1% 1% 0; height: 100px; background-size: 169px 100px; }
+div.five-by-two-column-table div.tenth-column { width: 169px; float: left; padding: 0 1% 1% 0; height: 100px; background-size: 169px 100px; }
+
 /* Ask a Librarian Button */
 
 div#libchat_8dc4db4d87bea74f03769d6a5b7e86eb {
