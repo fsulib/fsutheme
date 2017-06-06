@@ -372,3 +372,19 @@ div.carousel-three-items button.slick-next {
 div.lib-live-video {
   height: 276px;
 }
+
+/* Side by Side blocks */
+
+section.two-column-left-block {
+  float: left;
+  width: 55%;
+}
+
+section.two-column-right-block {
+  float: right;
+  width: 40%;
+}
+
+
+
+

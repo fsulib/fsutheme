@@ -304,6 +304,44 @@ body.node-type-e-resource div.field-item img {
 
 /* Special Collections Home Page */
 
+section.two-column-left-block h2.block-title {
+  padding-bottom: 25px;
+}
+
+section.two-column-left-block .views-row {
+  margin-bottom: 25px;
+}
+
+section.two-column-left-block .views-field-field-date-blog-posted {
+  font-size: 150%;
+  border: 1px solid #ddd;
+  width: 50px;
+  text-align: center;
+  background-color: #f3ede1;
+  float: left;
+}
+
+section.two-column-left-block .views-field-title {
+  font-size: 160%;
+  padding-left: 65px;
+}
+
+section.two-column-left-block .views-field-body {
+  padding-left: 65px;
+}
+
+section.two-column-right-block {
+  padding-right: 18px;
+}
+
+section.two-column-right-block h2.block-title {
+  padding-bottom: 25px;
+}
+
+section.two-column-right-block .s-lc-time {
+  float: right;
+}
+
 div#sca-home-page-gallery a {
   color: white;
 }
