@@ -287,6 +287,16 @@ body.node-type-e-resource div.field-item img {
   width: 100%;
 }
 
+/* Software List */
+
+body.page-software-locations div.views-field div.field-content p {
+  margin-bottom: 0;
+}
+
+body.page-software-locations div.views-row {
+  margin-bottom: 1.5em;
+}
+
 /* Software Pages */
 .node-type-software .field-name-field-software-image img {
   float: right;
@@ -300,6 +310,10 @@ body.node-type-e-resource div.field-item img {
 
 .node-type-software .field-name-body {
   margin-top: 20px;
+}
+
+.node-type-software .field-name-field-map-location {
+  margin: 1em 0;
 }
 
 /* Special Collections Home Page */
