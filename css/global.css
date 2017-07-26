@@ -103,6 +103,8 @@ blockquote {
   margin: 1.333em 0;
 }
 
+.highlight { background-color: #ffffe0; }
+
 .invisible {
   display: none;
 }

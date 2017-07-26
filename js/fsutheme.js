@@ -78,6 +78,8 @@
 /* Article Search Function */
 function articleSearch(search_form) {
 
+  var count = 0;
+
   /* Get Filters set by user */
   var peer_review_filter = document.getElementById("filter_peer_reviewed").checked;
   var newspaper_filter = document.getElementById("filter_include_newspapers").checked;
@@ -87,27 +89,26 @@ function articleSearch(search_form) {
   /* Create the query */
   var query = document.forms[search_form]["base_query"].value;
 
-  if (date_range_filter) {
-    query += "s.rf=PublicationDate%2C2005%3A*&amp;";
-  }
+  query += "&bQuery=" + document.forms[search_form]["article_search_input"].value;
 
-  if (peer_review_filter) {
-    query += "s.fvf%5B%5D=IsPeerReviewed%2Ctrue%2Cf&amp;";
+  /* Removed for EDS */
+  if (newspaper_filter) {
+
   }
 
   if (full_text_filter) {
-    query += "s.fvf%5B%5D=IsFullText%2Ctrue%2Cf&amp;";
+    query += "&cli" + count + "=FT1&clv" + count + "=Y";
+    count++;
   }
 
-  if (!newspaper_filter) {
-    query += "s.fvf%5B%5D=ContentType%2CNewspaper+Article%2Ct&amp;";
+  if (peer_review_filter) {
+    query += "&cli" + count + "=RV&clv" + count + "=Y";
+    count++;
   }
-
-  query += "s.q=" + document.forms[search_form]["article_search_input"].value;
 
   if (date_range_filter) {
-    query += "&amp;s.cmd=setRangeFilter(PublicationDate," +
-      document.forms[search_form]["date_range"].value + ":*)";
+    var current_year = new Date().getFullYear();
+    query += "&cli" + count + "=DT1&clv" + count + "=" + document.forms[search_form]["date_range"].value + "01-" + current_year + "12"; 
   }
 
   window.location = query;

@@ -337,11 +337,6 @@ section.two-column-left-block .views-field-field-date-blog-posted {
 
 section.two-column-left-block .views-field-title {
   font-size: 160%;
-  padding-left: 65px;
-}
-
-section.two-column-left-block .views-field-body {
-  padding-left: 65px;
 }
 
 section.two-column-right-block {
@@ -462,4 +457,57 @@ div#sca-home-page-gallery div#faqs {
 div#sca-home-page-gallery div#faqs:hover { 
   background-image: url("https://www.lib.fsu.edu/sites/default/files/sites/default/files/upload/sca/FAQ-hover.png"); 
   background-repeat: no-repeat;
+}
+
+/* Hope test CSS */
+
+.img-flip { 
+  position: relative; 
+  display: block; 
+} 
+
+.img-flip img { 
+  display: block; 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  margin: 0; 
+  width: 100%; 
+  height: auto; 
+} 
+
+.img-flip img:last-child { 
+  opacity: 0; 
+} 
+
+.img-flip:hover img:first-child { 
+  opacity: 0; 
+} 
+
+.img-flip:hover img:last-child { 
+  opacity: 1; 
+} 
+
+.active .img-flip img:first-child { 
+opacity: 0; 
+} 
+
+.active .img-flip img:last-child { 
+  opacity: 1; 
+} 
+
+.person .person-photos { 
+  height: 0; 
+  padding-bottom: 72%; 
+  position: relative; 
+} 
+
+.person .person-photos img { 
+  display: block; 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  margin: 0; 
+  width: 100%; 
+  height: auto; 
 }
