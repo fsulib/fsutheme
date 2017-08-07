@@ -422,12 +422,20 @@ div.region-user-second .block {
   text-align: center;
 }
 
-div.region-user-second .block-summon-solr-search-block {
+div.region-user-second .top-right-search-block {
   float: none;
 }
 
 div.region-user-second #block-summon-solr-search-summon-solr-search-block {
   margin-bottom: 5px;
+}
+
+div.region-user-second .top-right-search-block h2.block-title {
+  display: none;
+}
+
+div.region-user-second input#search {
+  width: 221px;
 }
 
 div.region-user-second input#edit-onesearch-block-submit {

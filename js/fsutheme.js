@@ -155,8 +155,8 @@ function catalogBookSearch(search_form) {
 
 /* OneSearch Functions */
 function onesearchController(search_form) {
-  var base_url = "https://login.proxy.lib.fsu.edu/login?url=http://fsu.summon.serialssolutions.com/search?s.fvf%5B%5D=ContentType%2CBook+Review%2Ct&s.q=";
-  var path = base_url + document.forms[search_form]["search"].value; 
+  var base_url = "https://login.proxy.lib.fsu.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true&authtype=ip,guest&custid=s5308004&profile=eds";
+  var path = base_url + "&bQuery=" + document.forms[search_form]["search"].value; 
   window.location = path;
   return false;
 }

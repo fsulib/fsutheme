@@ -96,14 +96,18 @@ form#onesearch-inline-form .form-text {
   width: 470px;
 }
 
-div.region-user-second .block-summon-solr-search-block {
+div.region-user-second .top-right-search-block h2.block-title {
+  display: none;
+}
+
+div.region-user-second .top-right-search-block {
   padding-right: 0;
   width: auto;
   margin-bottom: 4px;
   margin-top: 6px;
 }
 
-div.region-user-second input#edit-onesearch-block-input {
+div.region-user-second input#search {
   width: 200px;
 }
 
