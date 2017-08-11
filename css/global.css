@@ -447,6 +447,10 @@ form#onesearch-form {
   margin-top: 6px;
 }
 
+div.region-footer-fourth-inner .block-summon-solr-search-block {
+  display: none;
+}
+
 /* Branding Zone */
 
 div#zone-user-wrapper {
@@ -522,7 +526,58 @@ div#zone-header .ui-tabs-panel ul {
   padding-left: 20px;
 }
 
-div#region-header-first {
+div.home-page-search input.form-text {
+    width: 210px;
+    height: 40px;
+    float: left;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+div.home-page-search input.edit-onesearch-block-submit {
+  float: left;
+  width: 80px;
+  height: 40px;
+  margin-top: 10px;
+  font-size: 15px;
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #00a87f), color-stop(1, #008e67));
+  background: -moz-linear-gradient(top center, #00a87f 0%, #008e67 100%);
+  background-color: #00a87f;
+  text-shadow: none;
+}
+
+div#zone-header .ui-tabs-nav li a#ui-id-2,
+div#zone-header .ui-tabs-nav li a#ui-id-3 {
+  display: none;
+}
+
+div#region-header-first .ui-tabs-panel {
+  height: auto !important;
+}
+
+div.home-page-search h5 {
+  /*text-shadow: none;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  float: left;
+  width: 100%;*/
+  display: none;
+}
+
+div.home-page-search ul {
+  /*float: left;
+  width: 100%;*/
+  display: none;
+}
+
+div.home-page-search li {
+  /*margin-bottom: 10px;
+  font-size: 90%;*/
+  display: none;
+}
+
+div.home-page-search p {
   display: none;
 }
 

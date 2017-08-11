@@ -155,7 +155,7 @@ function catalogBookSearch(search_form) {
 
 /* OneSearch Functions */
 function onesearchController(search_form) {
-  var base_url = "https://login.proxy.lib.fsu.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true&authtype=ip,guest&custid=s5308004&profile=eds";
+  var base_url = "http://search.ebscohost.com/login.aspx?direct=true&authtype=ip,guest&custid=s5308004&profile=eds";
   var path = base_url + "&bQuery=" + document.forms[search_form]["search"].value; 
   window.location = path;
   return false;
@@ -175,7 +175,9 @@ function fsuthemeTooltip($) {
 
 /* Find an Article Page Functions */
 function makeURL(the_form) {
-var query = document.forms[the_form]["base_url"].value + document.forms[the_form]["article_search_query"].value + document.forms[the_form]["middle_url"].value + document.forms[the_form]["end_url"].value;
-window.location = query;
-return false;
+  var current_year = new Date().getFullYear();
+  date_parameter = "&cli2=DT1&clv2=" + document.forms[the_form]["date_range"].value + "01-" + current_year + "12";
+  var query = document.forms[the_form]["base_url"].value + document.forms[the_form]["article_search_query"].value + document.forms[the_form]["end_url"].value + date_parameter;
+  window.location = query;
+  return false;
 }

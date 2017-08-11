@@ -218,10 +218,19 @@ div#zone-header-wrapper {
   padding-top: 0;
 }
 
+div#zone-header .ui-tabs-nav li a#ui-id-2,
+div#zone-header .ui-tabs-nav li a#ui-id-3 {
+  display: block;
+} 
+
 div#region-header-first {
   display: block;
   width: 100%;
   margin-top: 15px;
+}
+
+div#region-header-first .ui-tabs-panel {
+  height: 250px !important;
 }
 
 div#region-header-first div.home-page-search-block div.content {
@@ -255,19 +264,25 @@ div.home-page-search h5 {
   margin-bottom: 15px;
   float: left;
   width: 100%;
+  display: block;
 }
 
 div.home-page-search ul {
   float: left;
   width: 100%;
+  display: block;
 }
 
 div.home-page-search li {
   float: left;
   width: 50%;
   margin-bottom: 10px;
-  font-size: 90%;
-  
+  font-size: 90%;  
+  display: block;
+}
+
+div.home-page-search p {
+  display: block;
 }
 
 div.home-page-search label {
