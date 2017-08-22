@@ -29,12 +29,19 @@ div.two-column-table div.right-column-sixty { width: 59.5%; float: right; }
 }
 
 /* Four column layout */
-
 div.four-column-table { width: 100%; display: block; overflow: auto; margin-bottom: 30px; }
 div.four-column-table div.left-column { width: 46%; float: left; padding: 0 0 15px 10px; }
 div.four-column-table div.middle-left-column { width: 46%; float: left; padding: 0 10px 15px 10px;  }
 div.four-column-table div.middle-right-column { width: 46%; float: left; padding: 0 10px;  }
 div.four-column-table div.right-column { width: 46%; float: left; padding: 0 10px 0 0; }
+
+/*Four column layout view */
+div.four-column-view { width: 100%; display: block; overflow: auto; margin-bottom: 10px; }
+div.four-column-view div.views-row-1 { width: 22%; float: left; padding: 0; margin-right: 20px; }
+div.four-column-view div.views-row-2 { width: 22%; float: left; padding: 0; margin-right: 20px; }
+div.four-column-view div.views-row-3 { width: 22%; float: left; padding: 0; margin-right: 20px; }
+div.four-column-view div.views-row-4 { width: 22%; float: left; padding: 0; }
+div.four-column-view img { max-width: 160px; max-height: 120px; padding-right: 0; padding-down: 10px; }
 
 /* Five by Two column layout */
 div.five-by-two-column-table a { 

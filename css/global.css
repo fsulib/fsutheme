@@ -357,12 +357,19 @@ img.centered-label-icon	{
 }
 
 /* Four column layout */
-
 div.four-column-table { width: 100%; display: block; overflow: auto; margin-bottom: 30px; }
 div.four-column-table div.left-column { width: 45%; float: left; padding: 0 0 15px 2.5%; }
 div.four-column-table div.middle-left-column { width: 45%; float: left; padding: 0 2.5% 15px 2.5%;  }
 div.four-column-table div.middle-right-column { width: 45%; float: left; padding: 0 2.5%;  }
 div.four-column-table div.right-column { width: 45%; float: left; padding: 0 2.5% 0 0; }
+
+/* Four column view */
+div.four-column-view img {
+    float: left;
+    padding-right: 20px;   
+    max-height: 135px;
+    max-width: 180px;
+}
 
 /* Five by Two column layout */
 div.five-by-two-column-table a { 

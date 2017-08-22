@@ -8,6 +8,10 @@ div.four-column-table div.middle-left-column { width: 23%; float: left; padding:
 div.four-column-table div.middle-right-column { width: 23%; float: left; padding: 0 10px;  }
 div.four-column-table div.right-column { width: 23%; float: left; padding: 0 10px 0 0; }
 
+/* Four column view */
+div.four-column-view div.views-row-1 { margin: 0 25px 0 10px; }
+div.four-column-view img { max-width: 180px; max-height: 135px; }
+
 /* Five by Two column layout */
 div.five-by-two-column-table a { 
  display: block; 
