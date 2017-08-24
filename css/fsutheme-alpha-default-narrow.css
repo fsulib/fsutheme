@@ -401,12 +401,12 @@ div.lib-live-video {
 
 /* Side by Side blocks */
 
-section.two-column-left-block {
+div#region-content section.two-column-left-block {
   float: left;
   width: 55%;
 }
 
-section.two-column-right-block {
+div#region-content section.two-column-right-block {
   float: right;
   width: 40%;
 }

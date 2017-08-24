@@ -79,6 +79,7 @@
 function allSearch(search_form) {
   var query = document.forms[search_form]["base_query"].value;
   query += "&bQuery=" + document.forms[search_form]["all-search-input"].value;
+  query += "&cli0=FT&clv0=Y&cli1=FT1&clv1=Y&type=1";
   window.location = query;
   return false;
 }
@@ -86,7 +87,7 @@ function allSearch(search_form) {
 /* Article Search Function */
 function articleSearch(search_form) {
 
-  var count = 0;
+  var count = 1;
 
   /* Get Filters set by user */
   var peer_review_filter = document.getElementById("filter_peer_reviewed").checked;
@@ -96,9 +97,10 @@ function articleSearch(search_form) {
   /* Create the query */
   var query = document.forms[search_form]["base_query"].value;
   query += "&bQuery=" + document.forms[search_form]["article_search_input"].value;
+  query += "&cli0=FT1&clv0=Y&type=1";
 
   if (full_text_filter) {
-    query += "&cli" + count + "=FT1&clv" + count + "=Y";
+    query += "&cli" + count + "=FT&clv" + count + "=Y";
     count++;
   }
 
@@ -155,8 +157,10 @@ function catalogBookSearch(search_form) {
 
 /* OneSearch Functions */
 function onesearchController(search_form) {
-  var base_url = "http://search.ebscohost.com/login.aspx?direct=true&authtype=ip,guest&custid=s5308004&profile=eds";
+  var proxy = "https://login.proxy.lib.fsu.edu/login?url=";
+  var base_url = proxy + "http://search.ebscohost.com/login.aspx?direct=true&authtype=ip,guest&custid=s5308004&profile=eds&groupID=main";
   var path = base_url + "&bQuery=" + document.forms[search_form]["search"].value; 
+  path += "&cli0=FT&clv0=Y&cli1=FT1&clv1=Y&type=1";
   window.location = path;
   return false;
 }
