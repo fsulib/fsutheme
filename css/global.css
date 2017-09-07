@@ -358,6 +358,17 @@ img.centered-label-icon	{
   width: 140px; height: 30px; margin: 5px 8px; vertical-align: top;
 }
 
+/* Flexslider styles */
+
+.flexslider {
+  border: 0;
+  margin-bottom: 30px;
+}
+
+#zone-content div.flexslider li {
+  margin-left: 0;
+}
+
 /* Four column layout */
 div.four-column-table { width: 100%; display: block; overflow: auto; margin-bottom: 30px; }
 div.four-column-table div.left-column { width: 45%; float: left; padding: 0 0 15px 2.5%; }
