@@ -168,6 +168,11 @@ div.carousel-three-items button.slick-next:focus {
 
 /* News Page */
 
+div.block-library-news-block-1 img {
+  float: left;
+  padding-right: 20px;
+}
+
 body.page-news img {
   float: left;
   padding-right: 20px;

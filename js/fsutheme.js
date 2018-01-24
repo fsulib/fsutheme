@@ -122,14 +122,23 @@ function articleSearch(search_form) {
 function edsBookSearch(search_form) {
 
   /* Get Filters set by user */
-  var full_text_filter = document.getElementById("filter_book_full_text").checked;
+  var ebook_filter = document.getElementById("filter_book_full_text").checked;
+  var all_books_filter = document.getElementById("books_and_ebooks").checked;
 
   /* Create the query */
   var query = document.forms[search_form]["base_query"].value;
   query += "&bQuery=" + document.forms[search_form]["book_search_input"].value + "&cli0=FC&clv0=Y";
 
-  if (full_text_filter) {
+  if (ebook_filter) {
+    query = "http://widgets.ebscohost.com/prod/search/index.php?direct=true" +
+            "&scope=site&site=eds-live&authtype=ip,guest&custid=s5308004&groupid=main&profile=eds" +
+            "&ailc=y&facet=eBooks&bquery=" + document.forms[search_form]["book_search_input"].value;
+  }
 
+  if (all_books_filter) {
+    query = "http://widgets.ebscohost.com/prod/search/index.php?direct=true" +
+            "&scope=site&site=eds-live&authtype=ip,guest&custid=s5308004&groupid=main&profile=eds" +
+            "&ailc=y&facet=eBooks,Books&bquery=" + document.forms[search_form]["book_search_input"].value;
   }
 
   window.location = query;
