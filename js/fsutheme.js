@@ -194,3 +194,16 @@ function makeURL(the_form) {
   window.location = query;
   return false;
 }
+
+/* Special Search functions */
+function limittonapoleon(myForm) {
+  myForm.bquery.value = myForm.uquery.value + ' AND (LB "Special Collections, Napoleon Collection")';
+}
+
+function limittoshaw(myForm) {
+  myForm.bquery.value = myForm.uquery.value + ' AND (LB "Special Collections, Shaw Childhood in Poetry Collection")';
+}
+
+function limittomarsha(myForm) {
+  myForm.bquery.value = myForm.uquery.value + ' AND (LB "Special Collections, Marsha Gontarski Children&#39;s Literature Collection")';
+}
