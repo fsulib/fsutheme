@@ -63,32 +63,44 @@ div#region-header-second div.home-page-quick-links img {
 
 /* Preface Zone */
 
-div#region-preface-second .views-row {
+div#region-preface-first div.block-latest-blog-post-block {
+  min-height: 115px;
+}
+
+div#region-preface-first section.home-page-facebook-logo {
+  min-height: 115px;
+}
+
+div#region-preface-third .views-row {
   min-height: 70px;
 }
 
-div#region-preface-second .views-field-field-event-date {
-  font-size: 160%;
-  border: 1px solid #ddd;
-  width: 50px;
+div#region-preface-third .views-field-field-event-date {
+  font-size: 120%;
+  padding: 4px 2px 0px 2px;
+  color: #782f40;
+  font-weight: bold;
+  border: 2px solid #782f40;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
   text-align: center;
-  background-color: #f3ede1;
   float: left;
 }
 
-div#region-preface-second .views-field-title {
+div#region-preface-third .views-field-title {
   font-size: 120%;
-  padding-left: 60px;
+  padding-left: 70px;
 }
 
-div#region-preface-second .views-field-field-event-date-1 {
+div#region-preface-third .views-field-field-event-date-1 {
   color: #888;
-  padding-left: 60px;
+  padding-left: 70px;
 }
 
-div#region-preface-second .views-field-field-event-location {
+div#region-preface-third .views-field-field-event-location {
   color: #333;
-  padding-left: 60px;
+  padding-left: 70px;
 }
 
 /* three column carousel */

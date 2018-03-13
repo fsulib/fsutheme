@@ -328,24 +328,38 @@ div#region-header-second div.home-page-quick-links img {
 
 /* Preface Zone */
 
-div#region-preface-second .spotlight {
+div#region-preface-first .views-row {
+  padding: 0;
+}
+
+div#region-preface-first .item-list ul li {
+  margin: 0;
+}
+
+div#region-preface-first p.preface-first-icon img {
+  display: none;
+  padding: 0;
+}
+
+div#region-preface-first .preface-first-icon {
+  padding: 0;
+  margin: 0;
+}
+
+div#region-preface-first .blog-title {
+  font-weight: bold;
+}
+
+div#region-preface-third .spotlight {
   padding-right: 30px;
 }
 
-div#region-preface-second .content {
-  padding: 10px 50px 10px 10px;
+div#region-preface-third .content {
+  padding: 10px 20px 10px 20px;
 }
 
-div#region-preface-second .views-row {
+div#region-preface-third .views-row {
   width: 100%;
-}
-
-div#region-preface-first div.region-inner {
-  border-right: 1px solid #d0d0d0;
-}
-
-div#region-preface-first .block-home-page-news-teasers-block {
-  padding-left: 0;
 }
 
 /* Content Zone */

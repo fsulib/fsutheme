@@ -101,7 +101,20 @@ div#region-header-second li {
 
 /* Preface Zone */
 
-div#region-preface-second img {
+div#region-preface-first div.block-facebook-latest-feed {
+  padding-top: 0;
+}
+
+div#region-preface-first p.preface-first-icon img {
+  padding-right: 15px;
+  display: block;
+}
+
+div#region-preface-third div.views-field-field-event-date span.date-display-single {
+  padding: 2px;
+}
+
+div#region-preface-third img {
   display: block;
   padding-right: 20px;
 }
@@ -111,9 +124,8 @@ div#region-preface-first .views-field-field-news-image	{
 }
 
 div#region-preface-first .views-row {
-  padding: 0 50px 30px 0;
+  padding: 0 10px 0 95px;
   border-bottom: none;
-  min-height: 120px;
 }
 
 div#region-preface-first img {
