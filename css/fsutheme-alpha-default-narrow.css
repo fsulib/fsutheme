@@ -362,6 +362,10 @@ div#region-preface-third .views-row {
   width: 100%;
 }
 
+div#region-preface-third .views-field-title {
+  font-weight: bold;
+}
+
 /* Content Zone */
 
 div#breadcrumb {

@@ -651,13 +651,21 @@ div#zone-preface {
   margin-top: 20px;
 }
 
+div#zone-preface h5 {
+  padding-bottom: 25px;
+}
+
+div#zone-preface span.subtitle-link {
+  font-size: 100%;
+}
+
 div#zone-preface li {
   list-style: none;
 }
 
 div#region-preface-first p.preface-first-icon img {
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
   padding-right: 15px;
   display: block;
   float:left;
@@ -747,7 +755,7 @@ div#region-preface-first .region-inner {
 
 div#region-preface-first .views-row {
   text-align: left;
-  padding: 0 0 30px 10px;
+  padding: 0 0 0 10px;
 }
 
 div#region-preface-first .views-more-link {
