@@ -1101,3 +1101,14 @@ div.carousel-three-items h6 {
 div.lib-live-video {
   height: 240px;
 }
+
+/* Product View */
+
+.product-inline-view div.views-row {
+  float: left;
+  padding: 20px;
+  border: 1px solid #ccc;
+  min-height: 250px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
