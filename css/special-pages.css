@@ -519,13 +519,28 @@ opacity: 0;
 /* Equipment Pages */
 
 div.node-equipment div.field-name-field-equipment-highlights {
-    float: right;
-    border: 1px solid #d1cbc0;
-    padding-right: 20px;
-    padding-top: 15px;
-    margin-left: 20px;
-    margin-bottom: 10px;
-    background-color: #f3ede1;
+  float: right;
+  border: 1px solid #d1cbc0;
+  padding-right: 20px;
+  padding-top: 15px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  background-color: #f3ede1;
+}
+
+div.node-equipment div.field-name-check-availability {
+  clear: both;
+  float: right; 
+}
+
+div.field-name-field-equipment-related-items {
+  border: 1px solid #adadad;
+}
+
+div.field-name-field-equipment-related-items div.field-label {
+  padding: 12px 12px 20px; 
+  font-size: 115%;
+  color: #7c3546;
 }
 
 /* Year of Poetry */
