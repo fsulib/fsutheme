@@ -130,13 +130,15 @@ function edsBookSearch(search_form) {
   query += "&bQuery=" + document.forms[search_form]["book_search_input"].value + "&cli0=FC&clv0=Y";
 
   if (ebook_filter) {
-    query = "http://widgets.ebscohost.com/prod/search/index.php?direct=true" +
+    query = "https://login.proxy.lib.fsu.edu/login?url=" +
+            "http://widgets.ebscohost.com/prod/search/index.php?direct=true" +
             "&scope=site&site=eds-live&authtype=ip,guest&custid=s5308004&groupid=main&profile=eds" +
             "&ailc=y&facet=eBooks&bquery=" + document.forms[search_form]["book_search_input"].value;
   }
 
   if (all_books_filter) {
-    query = "http://widgets.ebscohost.com/prod/search/index.php?direct=true" +
+    query = "https://login.proxy.lib.fsu.edu/login?url=" +
+            "http://widgets.ebscohost.com/prod/search/index.php?direct=true" +
             "&scope=site&site=eds-live&authtype=ip,guest&custid=s5308004&groupid=main&profile=eds" +
             "&ailc=y&facet=eBooks,Books&bquery=" + document.forms[search_form]["book_search_input"].value;
   }
