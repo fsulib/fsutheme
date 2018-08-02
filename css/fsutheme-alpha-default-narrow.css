@@ -429,6 +429,17 @@ div#region-content section.two-column-right-block {
   width: 40%;
 }
 
+/* Dirac quick links */
 
+div#dirac-quick-links img {
+  width: 80px;
+  height: 80px;
+}
+
+div#dirac-quick-links li {
+  font-size: 95%;
+  margin-left: 0;
+  margin-right: 30px;
+}
 
 

@@ -129,3 +129,20 @@ div.carousel-three-items button.slick-next {
 div.lib-live-video {
   height: 478px;
 }
+
+/* Dirac quick links */
+
+div#dirac-quick-links img {
+  width: 125px;
+  height: 125px;
+}
+
+div#dirac-quick-links ul {
+  margin-left: 25px;
+}
+
+div#dirac-quick-links li {
+  font-size: 120%;
+  margin-left: 0;
+  margin-right: 71px;
+}

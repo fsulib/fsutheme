@@ -1112,3 +1112,32 @@ div.lib-live-video {
   margin-right: 10px;
   margin-bottom: 10px;
 }
+
+/* Dirac quick links */
+
+div#dirac-quick-links img {
+  width: 50px;
+  height: 50px;
+}
+
+div#dirac-quick-links .node ul {
+  padding-left: 0;
+}
+
+div#dirac-quick-links li {
+  float: left;
+  list-style: none;
+  font-size: 80%;
+  text-align: center;
+  margin-left: 0;
+  margin-right: 9px;
+  padding: 0 3px;
+}  
+
+div#dirac-quick-links li:hover {
+  background-color: #f3ede1;
+}
+
+section#block-block-58 td.hours-col-time {
+  float: right;
+}
