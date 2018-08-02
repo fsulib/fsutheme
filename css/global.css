@@ -363,6 +363,23 @@ img.centered-label-icon	{
   width: 140px; height: 30px; margin: 5px 8px; vertical-align: top;
 }
 
+.hp-slide-fade {
+  -webkit-animation-name: slidefade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: slidefade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes slidefade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes slidefade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
 /* Flexslider styles */
 
 .flexslider {
