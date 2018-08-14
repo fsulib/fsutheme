@@ -521,8 +521,7 @@ opacity: 0;
 div.node-equipment div.field-name-field-equipment-highlights {
   float: right;
   border: 1px solid #d1cbc0;
-  padding-right: 20px;
-  padding-top: 15px;
+  padding: 15px 20px;
   margin-left: 20px;
   margin-bottom: 10px;
   background-color: #f3ede1;
