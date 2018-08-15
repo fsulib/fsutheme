@@ -77,9 +77,9 @@
 
 /* All Search Function */
 function allSearch(search_form) {
+  var sanitized_input = encodeURIComponent(document.forms[search_form]["all-search-input"].value);
   var query = document.forms[search_form]["base_query"].value;
-  query += "&bQuery=" + document.forms[search_form]["all-search-input"].value;
-  query += "&cli0=FT&clv0=Y&cli1=FT1&clv1=Y&type=1";
+  query += "&bQuery=" + sanitized_input + "&cli0=FT&clv0=Y&cli1=FT1&clv1=Y&type=1";
   window.location = query;
   return false;
 }
@@ -96,7 +96,7 @@ function articleSearch(search_form) {
 
   /* Create the query */
   var query = document.forms[search_form]["base_query"].value;
-  query += "&bQuery=" + document.forms[search_form]["article_search_input"].value;
+  query += "&bQuery=" + encodeURIComponent(document.forms[search_form]["article_search_input"].value);
   query += "&cli0=FT1&clv0=Y&type=1";
 
   if (full_text_filter) {
@@ -127,20 +127,20 @@ function edsBookSearch(search_form) {
 
   /* Create the query */
   var query = document.forms[search_form]["base_query"].value;
-  query += "&bQuery=" + document.forms[search_form]["book_search_input"].value + "&cli0=FC&clv0=Y";
+  query += "&bQuery=" + encodeURIComponent(document.forms[search_form]["book_search_input"].value) + "&cli0=FC&clv0=Y";
 
   if (ebook_filter) {
     query = "https://login.proxy.lib.fsu.edu/login?url=" +
             "http://widgets.ebscohost.com/prod/search/index.php?direct=true" +
             "&scope=site&site=eds-live&authtype=ip,guest&custid=s5308004&groupid=main&profile=eds" +
-            "&ailc=y&facet=eBooks&bquery=" + document.forms[search_form]["book_search_input"].value;
+            "&ailc=y&facet=eBooks&bquery=" + encodeURIComponent(document.forms[search_form]["book_search_input"].value);
   }
 
   if (all_books_filter) {
     query = "https://login.proxy.lib.fsu.edu/login?url=" +
             "http://widgets.ebscohost.com/prod/search/index.php?direct=true" +
             "&scope=site&site=eds-live&authtype=ip,guest&custid=s5308004&groupid=main&profile=eds" +
-            "&ailc=y&facet=eBooks,Books&bquery=" + document.forms[search_form]["book_search_input"].value;
+            "&ailc=y&facet=eBooks,Books&bquery=" + encodeURIComponent(document.forms[search_form]["book_search_input"].value);
   }
 
   window.location = query;
