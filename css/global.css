@@ -262,7 +262,7 @@ img.centered-label-icon	{
 }
 
 .fa-icon-color-one {
-  color: #00a87f;
+  color: #00a87f !important;
   font-weight: 100;
   margin-bottom: 0px;
   padding-left: 25px !important;
@@ -270,7 +270,7 @@ img.centered-label-icon	{
 }
 
 .fa-icon-color-two {
-  color: #008896;
+  color: #008896 !important;
   font-weight: 100;
   margin-bottom: 0px;
   padding-left: 25px !important;
@@ -278,7 +278,7 @@ img.centered-label-icon	{
 }
 
 .fa-icon-color-three {
-  color: #782f40;
+  color: #782f40 !important;
   font-weight: 100;
   margin-bottom: 0px;
   padding-left: 25px !important;
@@ -286,7 +286,7 @@ img.centered-label-icon	{
 }
 
 .fa-icon-color-four {
-  color: #df9818;
+  color: #df9818 !important;
   font-weight: 100;
   margin-bottom: 0px;
   padding-left: 25px !important;
@@ -294,7 +294,7 @@ img.centered-label-icon	{
 }
 
 .fa-icon-color-five {
-  color: #8ad2d1;
+  color: #8ad2d1 !important;
   font-weight: 100;
   margin-bottom: 0px;
   padding-left: 25px !important;
@@ -302,7 +302,7 @@ img.centered-label-icon	{
 }
 
 .fa-icon-color-six {
-  color: #f0523f;
+  color: #f0523f !important;
   font-weight: 100;
   margin-bottom: 0px;
   padding-left: 25px !important;
@@ -313,6 +313,18 @@ img.centered-label-icon	{
   font-size: 20px !important;
   color: #782f40;
   font-weight: 100;
+}
+
+.fa-6x {
+  font-size: 6em !important;
+}
+
+.fa-7x {
+  font-size: 7em !important;
+}
+
+.fa-8x {
+  font-size: 8em !important;
 }
 
 .jq-tabs .ui-widget-header {
