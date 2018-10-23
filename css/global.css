@@ -170,6 +170,10 @@ ul.menu li.leaf {
   margin: 0;
 }
 
+.borderedTable tr {
+  border-bottom: 1px solid #ccc;
+}
+
 .fsutheme-button {
   border: 1px solid #722d3d;
   padding: 7px 30px;
