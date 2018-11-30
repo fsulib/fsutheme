@@ -187,6 +187,13 @@ ul.menu li.leaf {
   text-decoration: none;
 }
 
+.small-bq {
+  font-size: 1em; 
+  border: none;
+  margin: 0;
+  padding: 10px 20px 20px 20px;
+}
+
 .node-links ul li a, .comment-links ul li a {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f3ede1), color-stop(1, #dacaa6));
   background: -moz-linear-gradient(top center, #f3ede1 0%, #dacaa6 100%);
