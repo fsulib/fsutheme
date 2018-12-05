@@ -542,6 +542,16 @@ div.field-name-field-equipment-related-items div.field-label {
   color: #7c3546;
 }
 
+div.view-equipment-search {
+  text-align: center;
+}
+
+div.view-equipment-search .views-field-title {
+  padding-top: 15px;
+  font-weight: bold;
+  font-size: 110%;
+}
+
 /* Year of Poetry */
 
 body.context-year-of-poetry #zone-content li {

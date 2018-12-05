@@ -1151,6 +1151,8 @@ div.lib-live-video {
   min-height: 230px;
   margin-right: 10px;
   margin-bottom: 10px;
+  width: 220px;
+  height: 230px;
 }
 
 /* Dirac quick links */
