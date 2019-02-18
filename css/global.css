@@ -1201,7 +1201,7 @@ div.gs-gallery-title {
 
 /* Fancy button */
 
-.fsutheme-button {
+.fancy-button {
   -moz-box-shadow:inset 0px 1px 0px 0px #f7c5c0;
   -webkit-box-shadow:inset 0px 1px 0px 0px #f7c5c0;
   box-shadow:inset 0px 1px 0px 0px #f7c5c0;
@@ -1228,7 +1228,7 @@ div.gs-gallery-title {
   text-shadow:0px 1px 0px #b23e35;
 }
 
-.fsutheme-button:hover {
+.fancy-button:hover {
   background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e4685d), color-stop(1, #fc8d83));
   background:-moz-linear-gradient(top, #e4685d 5%, #fc8d83 100%);
   background:-webkit-linear-gradient(top, #e4685d 5%, #fc8d83 100%);
@@ -1239,7 +1239,7 @@ div.gs-gallery-title {
   background-color:#e4685d;
 }
 
-.fsutheme-button:active {
+.fancy-button:active {
   position:relative;
   top:1px;
 }
