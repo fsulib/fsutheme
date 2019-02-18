@@ -1201,6 +1201,11 @@ div.gs-gallery-title {
 
 /* Fancy button */
 
+a.fancy-button {
+  color: white;
+  
+}
+
 .fancy-button {
   -moz-box-shadow:inset 0px 1px 0px 0px #f7c5c0;
   -webkit-box-shadow:inset 0px 1px 0px 0px #f7c5c0;
@@ -1237,6 +1242,7 @@ div.gs-gallery-title {
   background:linear-gradient(to bottom, #e4685d 5%, #fc8d83 100%);
   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e4685d', endColorstr='#fc8d83',GradientType=0);
   background-color:#e4685d;
+  text-decoration: none;
 }
 
 .fancy-button:active {
