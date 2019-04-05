@@ -7,6 +7,11 @@
   Drupal.behaviors.fsutheme = {
     attach: function(context, settings) {
 
+      //Add readmore functionality
+      $(".read-more-content").readmore({
+        collapsedHeight: 0
+      });
+
       //Add accordion functionality
       $("#accordion").accordion({
         active: false,
