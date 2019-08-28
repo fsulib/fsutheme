@@ -565,3 +565,85 @@ div.field-name-field-streaming-clips div.description {
   color: black;
   font-size: 115%;
 }
+
+/* Services List */
+
+div.services-search h3 {
+  font-size: 5.5em;
+  float: left;
+  width: 60px;
+  /* text-align: center;
+  padding: 10px 10px 0px 10px;
+  background-color: #dbeae0;
+  margin: 10px 25px 0px 0px; */
+}
+
+div.services-search {
+  margin-top: 30px;
+}
+
+div.services-search div.item-list {
+  float: left;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+div.services-search li.views-row {
+  margin-top: 25px;
+}
+
+div.services-search div.views-field {
+  margin-left: 85px;
+}
+
+div.services-search div.views-field-title {
+  font-size: 150%;
+}
+
+div.service-list-exposed-filters {
+  background-color: #f3ede1;
+  padding: 20px 20px 25px 30px;
+}
+
+div.service-list-exposed-filters label {
+  font-size: 120%;
+  padding-bottom: 5px;
+}
+
+div.service-list-exposed-filters input[type="text"] {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 4%;
+  border: 1px solid #ccc;
+  padding: 3%;
+  color: #555;
+  font: 95% Arial, Helvetica, sans-serif;
+  height: 2.5em;
+}
+
+div.service-list-exposed-filters input[type="text"]:focus {
+  box-shadow: 0 0 5px #43D1AF;
+  padding: 3%;
+  border: 1px solid #43D1AF;
+}
+
+div.service-list-exposed-filters select {
+  /*padding: 14px;*/
+  height: 2.3em;
+}
+
+/* DigiNole Submission Form */
+body.page-node-add-faculty-scholarship-submission .form-item-field-scholarly-author-und-0-field-email-und-0-value,
+body.page-node-add-faculty-scholarship-submission .form-item-field-scholarly-author-und-1-field-email-und-0-value,
+body.page-node-add-faculty-scholarship-submission .form-item-field-scholarly-author-und-2-field-email-und-0-value {
+  display: none;
+}
+
