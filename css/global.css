@@ -909,9 +909,10 @@ div#region-preface-first .views-field-title {
   padding-left: 10px;
 }
 
+/*
 #region-sidebar-first section.block-menu ul.menu li.expanded ul.menu {
   display: none;
-}
+}*/
 
 #region-sidebar-first section.block-menu ul.menu li.active-trail ul.menu {
   display: block;
