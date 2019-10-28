@@ -596,7 +596,8 @@ div.services-search div.views-field {
   margin-left: 85px;
 }
 
-div.services-search div.views-field-title {
+div.services-search div.views-field-title,
+div.services-search div.views-field-title-2 {
   font-size: 150%;
 }
 
