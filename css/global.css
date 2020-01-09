@@ -740,16 +740,16 @@ div#region-preface-second h3 {
   letter-spacing: 0.4px;
 }
 
-div#region-preface-second .youtube-container {
+.youtube-container {
   position: relative;
   padding-bottom: 56.25%;
   height: 0; 
   overflow: hidden;
 }
 
-div#region-preface-second .youtube-container iframe,
-div#region-preface-second .youtube-container object,
-div#region-preface-second .youtube-container embed {
+.youtube-container iframe,
+.youtube-container object,
+.youtube-container embed {
   position: absolute;
   top: 0;
   left: 0;
