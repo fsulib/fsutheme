@@ -11,6 +11,11 @@ div#region-preface-first div.view-home-page-news-teasers div.views-row.views-row
   /*padding-top: 20px;*/
 }
 
+/* Covid-19 page */
+body.page-node-738636 div#region-content a {
+  text-decoration: underline;
+}
+
 /* Login Form */
 
 #user-login .item-list { display: none; }
