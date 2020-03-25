@@ -927,6 +927,10 @@ div#breadcrumb {
   display: none;
 }
 
+div#region-content a {
+  text-decoration: underline;
+}
+
 div#zone-content #page-title {
   text-align: left;
   font-size: 45px;
@@ -1013,6 +1017,7 @@ div#summon-solr-result h3 {
 
 div#summon-solr-result h3 a {
   color: #782f40;
+  text-decoration: none;
 }
 
 div#summon-solr-result h5 {
