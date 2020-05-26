@@ -43,11 +43,17 @@ article.node-preview div.field { margin: 15px 0 0 10px; }
 
 /* Reserve Item Request */
 
+.page-node-add-reserve-item-request h1#page-title { display: none; }
 .page-node-add-reserve-item-request .preview h3 { display: none; }
 .page-node-add-reserve-item-request .preview article.node-teaser { display: none; }
 .page-node-add-reserve-item-request .form-item-title { display: none; }
 .page-node-add-reserve-item-request article.node-preview ul.action-links { display: none; }
 .page-node-add-reserve-item-request article.node-preview ul.field-collection-view-links { display: none; }
+.page-node-add-reserve-item-request .form-item-field-library-building-und { display: none; }
+.page-node-add-reserve-item-request .form-item-field-reserve-item-und-0-field-reserve-item-personal-copy-und { display: none; }
+.page-node-add-reserve-item-request .form-item-field-reserve-item-und-0-field-field-reserve-item-donate-und { display: none; }
+.page-node-add-reserve-item-request .form-item-field-reserve-item-und-1-field-reserve-item-personal-copy-und { display: none; }
+.page-node-add-reserve-item-request .form-item-field-reserve-item-und-1-field-field-reserve-item-donate-und { display: none; }
 
 /* Search Results Page */
 
