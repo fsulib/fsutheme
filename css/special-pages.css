@@ -659,3 +659,30 @@ body.page-node-add-faculty-scholarship-submission .form-item-field-scholarly-aut
   display: none;
 }
 
+/* Department Listing */
+.depthighlight {
+  background-color:#f4f4f4;
+  padding:20px 20px 20px 20px;
+}
+
+.deptnohighlight {
+  background-color:white;
+  padding:20px 20px 20px 20px;
+}
+
+.depttitle {
+  font-weight:500;   
+  padding-top: 50px;
+}
+
+.subdept {
+  font-weight:bold;
+  padding-right: 5px;
+}
+
+.deptcallout {
+  background-color:#f3ede1;  
+  padding:20px 20px 10px 20px;
+  border:solid;
+  border-width:1px;
+}
