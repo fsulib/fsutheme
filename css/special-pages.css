@@ -686,3 +686,22 @@ body.page-node-add-faculty-scholarship-submission .form-item-field-scholarly-aut
   border:solid;
   border-width:1px;
 }
+
+/* Help and Support Page */
+
+.helpcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.helpitem {
+  justify-content: center;
+  width: 150px;
+  padding: 0px 50px 30px 50px;
+  position: relative;
+}
+
+.helplink {
+  font-size:large;
+}
