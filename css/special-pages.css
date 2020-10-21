@@ -712,45 +712,33 @@ body.node-type-strategic-initiative div.field-label{
   font-size:large;
 }
 
-.field-name-field-strategic_alignment {
+.strat_init_class_1 .field-label-above {
   background-color: #f3ede1;
   border: 2px solid black;
-  padding:10px;
+  padding-left:10px;
+  padding-top:20px;
   margin-bottom:20px;
 }
 
-div.group-header.strat_init_class_1 div.field.field-name-body.field-type-text-with-summary.field-label-hidden div.field-items div.field-item.even{
-  padding-bottom:20px;
+.strat_init_class_1 div.field-item.even{
+  padding:10px 0px 10px 0px;
+}
+
+.strat_init_class_2 div.field-label {
+  padding:10px 0px 10px 0px;
 }
 
 body.node-type-strategic-initiative .ds-2col-stacked > .group-left {
   float: auto;
   width: 40%;
-  padding:10px;
+  padding:0px 0px 10px 10px;
   background-color:#f3ede1;
 }
 
-div.group-footer.strat_init_class_4 div.field.field-name-field-activity-.field-type-text-with-summary.field-label-above div.field-label{
-  padding-top:10px;
+.strat_init_class_4 div.field-label{
+  padding:10px 0px 10px 0px;
 }
 
-div.group-header.strat_init_class_1 div.field.field-name-field-tactics.field-type-text-with-summary.field-label-above div.field-label{
-  padding-top:20px;
-}
-
-
-div.group-left.strat_init_class_2 div.field.field-name-field-initiative-members.field-type-text-long.field-label-above div.field-label {
-  padding-top:10px;
-}
-
-div.field.field-name-field-strategic_alignment.field-type-text.field-label-hidden div.field-items{
-  font-size:large;
-}
-
-div.group-header.strat_init_class_1 div.field.field-name-field-tactics.field-type-text-with-summary.field-label-above {
-  padding:20px 0px 20px 0px;
-}
-
-div.group-right.strat_init_class_3 div.field.field-name-field-timeline.field-type-text-long.field-label-above div.field-label {
-  padding-top:10px;   
+.strat_init_class_3  div.field-label {
+  padding:10px 0px 10px 0px;
 }
