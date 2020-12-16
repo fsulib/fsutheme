@@ -742,3 +742,9 @@ body.node-type-strategic-initiative .ds-2col-stacked > .group-left {
 .strat_init_class_3  div.field-label {
   padding:10px 0px 10px 0px;
 }
+
+/* Special Ask a Librarian Settings */
+
+body.page-node-18 div#block-block-39 {
+  display:none;
+}
