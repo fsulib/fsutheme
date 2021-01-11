@@ -715,9 +715,10 @@ body.node-type-strategic-initiative div.field-label{
 .strat_init_class_1 .field-label-above {
   background-color: #f3ede1;
   border: 2px solid black;
-  padding-left:10px;
-  padding-top:20px;
-  margin-bottom:20px;
+  padding-left: 10px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .strat_init_class_1 div.field-item.even{

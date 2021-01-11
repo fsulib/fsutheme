@@ -938,6 +938,8 @@ div#zone-content #page-title {
   width: 100%;
   padding-top: 0;
   padding-bottom: 10px;
+  font-weight: 600;
+  line-height: 56px;
   /*border-bottom: 1px solid #ceb888;*/
 }
 
