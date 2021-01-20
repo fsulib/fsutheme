@@ -222,6 +222,11 @@ h4.highlighted-resource {
   font-weight: 400;
 }
 
+.form-item .description {
+  font-size: 1.1em;
+  color: #222;
+}
+
 .taxonomy-term-description {
   margin-bottom: 10px;
 }
