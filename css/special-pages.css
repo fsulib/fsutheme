@@ -749,3 +749,114 @@ body.node-type-strategic-initiative .ds-2col-stacked > .group-left {
 body.page-node-18 div#block-block-39 {
   display:none;
 }
+
+/* Heritage and University Archives Home Page */
+
+div#hua-home-page-gallery a {
+  color: white;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
+
+div#hua-home-page-gallery a:hover {
+  text-decoration: none;
+}
+
+div#hua-home-page-gallery div#hua-about {
+  background-image: url("https://www.lib.fsu.edu/sites/default/files/upload/hua/c-blog.png");
+  background-repeat: no-repeat;
+}
+
+div#hua-home-page-gallery div#hua-about:hover {
+  background-image: url("https://www.lib.fsu.edu/sites/default/files/upload/hua/bw-blog.png");
+  background-repeat: no-repeat;
+}
+
+div#hua-home-page-gallery div#hua-donating {
+  background-image: url("https://www.lib.fsu.edu/sites/default/files/upload/hua/c-donating-1.png");
+  background-repeat: no-repeat;
+}
+
+div#hua-home-page-gallery div#hua-donating:hover {
+  background-image: url("https://www.lib.fsu.edu/sites/default/files/upload/hua/bw-donating-1.png");
+  background-repeat: no-repeat;
+}
+
+div#hua-home-page-gallery div#hua-records-transfers {
+  background-image: url("https://www.lib.fsu.edu/sites/default/files/upload/hua/c-records-transfer.png");
+  background-repeat: no-repeat;
+}
+
+div#hua-home-page-gallery div#hua-records-transfers:hover {
+  background-image: url("https://www.lib.fsu.edu/sites/default/files/upload/hua/bw-records-transfers.png");
+  background-repeat: no-repeat;
+}
+
+div#hua-home-page-gallery div#hua-research-guides {
+  background-image: url("https://www.lib.fsu.edu/sites/default/files/upload/hua/c-research-guides.png");
+  background-repeat: no-repeat;
+}
+
+div#hua-home-page-gallery div#hua-research-guides:hover {
+  background-image: url("https://www.lib.fsu.edu/sites/default/files/upload/hua/bw-research-guides.png");
+  background-repeat: no-repeat;
+}
+
+div#hua-home-page-gallery div#hua-search-collections {
+  background-image: url("https://www.lib.fsu.edu/sites/default/files/upload/hua/c-donating-2.png");
+  background-repeat: no-repeat;
+}
+
+div#hua-home-page-gallery div#hua-search-collections:hover {
+  background-image: url("https://www.lib.fsu.edu/sites/default/files/upload/hua/bw-donating-2.png");
+  background-repeat: no-repeat;
+}
+
+div#hua-home-page-gallery div#hua-heritage-museum {
+  background-image: url("https://www.lib.fsu.edu/sites/default/files/upload/hua/c-heritage-museum.png");
+  background-repeat: no-repeat;
+}
+
+div#hua-home-page-gallery div#hua-heritage-museum:hover {
+  background-image: url("https://www.lib.fsu.edu/sites/default/files/upload/hua/bw-heritage-museum.png");
+  background-repeat: no-repeat;
+}
+
+div#hua-home-page-gallery div#hua-norwood {
+  background-image: url("https://www.lib.fsu.edu/sites/default/files/upload/hua/c-norwood-reading-room.png");
+  background-repeat: no-repeat;
+}
+
+div#hua-home-page-gallery div#hua-norwood:hover {
+  background-image: url("https://www.lib.fsu.edu/sites/default/files/upload/hua/bw-norwood-reading-room.png");
+  background-repeat: no-repeat;
+}
+
+div#hua-home-page-gallery div#hua-diginole {
+  background-image: url("https://www.lib.fsu.edu/sites/default/files/upload/hua/c-legacy-walk.png");
+  background-repeat: no-repeat;
+}
+
+div#hua-home-page-gallery div#hua-diginole:hover {
+  background-image: url("https://www.lib.fsu.edu/sites/default/files/upload/hua/bw-legacy-walk.png");
+  background-repeat: no-repeat;
+}
+
+div#hua-home-page-gallery div#hua-exhibits {
+  background-image: url("https://www.lib.fsu.edu/sites/default/files/upload/hua/c-exhibits.png");
+  background-repeat: no-repeat;
+}
+
+div#hua-home-page-gallery div#hua-exhibits:hover {
+  background-image: url("https://www.lib.fsu.edu/sites/default/files/upload/hua/bw-exhibits.png");
+  background-repeat: no-repeat;
+}
+
+div#hua-home-page-gallery div#hua-contact {
+  background-image: url("https://www.lib.fsu.edu/sites/default/files/upload/hua/c-contact.png");
+  background-repeat: no-repeat;
+}
+
+div#hua-home-page-gallery div#hua-contact:hover {
+  background-image: url("https://www.lib.fsu.edu/sites/default/files/upload/hua/bw-contact.png");
+  background-repeat: no-repeat;
+}
