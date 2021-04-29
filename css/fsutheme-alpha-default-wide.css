@@ -146,3 +146,12 @@ div#dirac-quick-links li {
   margin-left: 0;
   margin-right: 71px;
 }
+
+/* Responsive Grids 4 column */
+
+div.views-responsive-grid.views-columns-4 div.views-column {
+   float: left;
+   display: inline;
+   width: 25%;
+   min-height: 400px;
+}
