@@ -752,6 +752,30 @@ body.page-node-18 div#block-block-39 {
 
 /* Heritage and University Archives Home Page */
 
+div#hua-home-page-gallery div.left-column {
+  width: 218px;
+  float: left;
+  padding: 0 5px 10px 5px;
+  height: 129px;
+  background-size: 218px 129px;
+}
+
+div#hua-home-page-gallery div.middle-column {
+  width: 218px;
+  float: left;
+  padding: 0 5px 10px 5px;
+  height: 129px;
+  background-size: 218px 129px;
+}
+
+div#hua-home-page-gallery div.right-column {
+  width: 218px;
+  float: left;
+  padding: 0 5px 10px 5px;
+  height: 129px;
+  background-size: 218px 129px;
+}
+
 div#hua-home-page-gallery a {
   color: white;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);

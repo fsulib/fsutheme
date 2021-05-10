@@ -155,3 +155,20 @@ div.views-responsive-grid.views-columns-4 div.views-column {
    width: 25%;
    min-height: 400px;
 }
+
+/* Heritage and University Archives Home Page */
+
+div#hua-home-page-gallery div.left-column {
+  padding: 0 9% 1% 0;
+  font-size: 165%;
+}
+
+div#hua-home-page-gallery div.middle-column {
+  padding: 0 9% 1% 0;
+  font-size: 165%;
+}
+
+div#hua-home-page-gallery div.right-column {
+  padding: 0 0 1% 0;
+  font-size: 165%;
+}

@@ -163,3 +163,20 @@ div#dirac-quick-links li {
   margin-left: 0;
   margin-right: 45px;
 }
+
+/* Heritage and University Archives Home Page */
+
+div#hua-home-page-gallery div.left-column {
+  padding: 0 1% 1% 0;
+  font-size: 155%;
+}
+
+div#hua-home-page-gallery div.middle-column {
+  padding: 0 1% 1% 0;
+  font-size: 155%;
+}
+
+div#hua-home-page-gallery div.right-column {
+  padding: 0 0 1% 0;
+  font-size: 155%;
+}
