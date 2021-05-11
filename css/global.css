@@ -428,10 +428,17 @@ div.four-column-table div.right-column { width: 45%; float: left; padding: 0 2.5
 
 /* Four column view */
 div.four-column-view img {
-    float: left;
-    padding-right: 20px;   
-    max-height: 135px;
-    max-width: 180px;
+  float: left;
+  padding-right: 20px;   
+  max-height: 135px;
+  max-width: 180px;
+}
+
+div.views-responsive-grid.views-columns-4 div.views-column {
+  float: left;
+  display: inline;
+  min-height: 400px;
+  width: 100%;
 }
 
 /* Five by Two column layout */

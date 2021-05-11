@@ -460,3 +460,12 @@ div#hua-home-page-gallery div.right-column {
   padding: 0 1% 1% 0;
   font-size: 145%;
 }
+
+/* 4 column responsive view */
+
+div.views-responsive-grid.views-columns-4 div.views-column {
+  float: left;
+  display: inline;
+  min-height: 400px;
+  width: 25%;
+}
