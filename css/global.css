@@ -90,6 +90,10 @@ a:hover {
   text-decoration: underline;
 }
 
+a:focus, input:focus {
+  outline: 4px solid orange;
+}
+
 hr {
   background-color: #e4e4e4;
 }
