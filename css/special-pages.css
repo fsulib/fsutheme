@@ -884,3 +884,15 @@ div#hua-home-page-gallery div#hua-contact:hover {
   background-image: url("https://www.lib.fsu.edu/sites/default/files/upload/hua/c-contact.png");
   background-repeat: no-repeat;
 }
+
+/* Special Collections Appointment Form */
+
+fieldset.fsutheme-webform-section legend span {
+  font-size: 150%;
+  font-weight: 500;
+} 
+
+div.fsutheme-webform-description div.description {
+  margin-top: 20px;
+  font-weight: bold;
+}
