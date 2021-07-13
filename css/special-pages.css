@@ -1,3 +1,9 @@
+/* Government Spotlight */
+span.fsutheme-gov-spotlight-title span {
+  font-size: 50%;
+  padding-left: 10px;
+}
+
 /* Special Alert News */
 
 div#region-preface-first div.view-home-page-news-teasers div.views-row.views-row-1 {
