@@ -55,7 +55,7 @@ article.node-preview div.field { margin: 15px 0 0 10px; }
 .page-node-add-reserve-item-request .form-item-title { display: none; }
 .page-node-add-reserve-item-request article.node-preview ul.action-links { display: none; }
 .page-node-add-reserve-item-request article.node-preview ul.field-collection-view-links { display: none; }
-.page-node-add-reserve-item-request .form-item-field-library-building-und { display: none; }
+.page-node-add-reserve-item-request .form-item-field-service-requested-und { display: none; }
 .page-node-add-reserve-item-request .form-item-field-reserve-item-und-0-field-reserve-item-personal-copy-und { display: none; }
 .page-node-add-reserve-item-request .form-item-field-reserve-item-und-0-field-field-reserve-item-donate-und { display: none; }
 .page-node-add-reserve-item-request .form-item-field-reserve-item-und-1-field-reserve-item-personal-copy-und { display: none; }
@@ -661,7 +661,11 @@ div.service-list-exposed-filters select {
 /* DigiNole Submission Form */
 body.page-node-add-faculty-scholarship-submission .form-item-field-scholarly-author-und-0-field-email-und-0-value,
 body.page-node-add-faculty-scholarship-submission .form-item-field-scholarly-author-und-1-field-email-und-0-value,
-body.page-node-add-faculty-scholarship-submission .form-item-field-scholarly-author-und-2-field-email-und-0-value {
+body.page-node-add-faculty-scholarship-submission .form-item-field-scholarly-author-und-2-field-email-und-0-value,
+body.page-node-add-faculty-scholarship-submission .form-item-field-scholarly-author-und-3-field-email-und-0-value,
+body.page-node-add-faculty-scholarship-submission .form-item-field-scholarly-author-und-4-field-email-und-0-value,
+body.page-node-add-faculty-scholarship-submission .form-item-field-scholarly-author-und-5-field-email-und-0-value,
+body.page-node-add-faculty-scholarship-submission .form-item-field-scholarly-author-und-6-field-email-und-0-value {
   display: none;
 }
 
