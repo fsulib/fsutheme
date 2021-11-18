@@ -95,7 +95,7 @@
 /* Limit By Location Function */
 function limitByLocation(search_form) {
   var sanitized_input = encodeURIComponent(document.forms[search_form]["uquery"].value);
-  var end_query = (document.forms[search_form]["end_query"].value);
+  var end_query = document.forms[search_form]["end_query"].value;
   var query = "https://fsu-flvc.primo.exlibrisgroup.com/discovery/search?query=any,contains,";
   query += sanitized_input + end_query;
   window.location = query;
