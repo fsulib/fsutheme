@@ -95,8 +95,9 @@
 /* Limit By Location Function */
 function limitByLocation(search_form) {
   var sanitized_input = encodeURIComponent(document.forms[search_form]["uquery"].value);
+  var end_query = (document.forms[search_form]["end_query"].value);
   var query = "https://fsu-flvc.primo.exlibrisgroup.com/discovery/search?query=any,contains,";
-  query += sanitized_input + "&tab=Everything&search_scope=MyInst_and_CI&vid=01FALSC_FSU:Home&offset=0&mfacet=library,include,6576%E2%80%93112132360006576,1";
+  query += sanitized_input + end_query;
   window.location = query;
   return false;
 }
