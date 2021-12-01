@@ -92,6 +92,15 @@
   };
 })(jQuery);
 
+/* Databases Search Function */
+function DatabasesSearch(search_form) {
+  var sanitized_input = encodeURIComponent(document.forms[search_form]["onesearch_block_input"].value);
+  var query = "https://guides.lib.fsu.edu/az.php?q=";
+  query += sanitized_input;
+  window.location = query;
+  return false;
+}
+
 /* Limit By Location Function */
 function limitByLocation(search_form) {
   var sanitized_input = encodeURIComponent(document.forms[search_form]["uquery"].value);
